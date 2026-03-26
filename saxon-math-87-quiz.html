@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saxon Math 8/7 — Pop Quiz Creator</title>
+<style>
+  :root {
+    --ink: #1a1a2e; --cream: #f5f0e8; --gold: #c9a84c; --gold-light: #e8d48a;
+    --red: #c0392b; --green: #1a6b3c; --blue: #1a3a6b;
+    --paper: #faf7f0; --rule: #d4c9a8; --shadow: rgba(26,26,46,0.15);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; background: var(--ink); color: var(--ink);
+    min-height: 100vh;
+    background-image: radial-gradient(ellipse at 20% 20%, #2a1a4e 0%, transparent 60%),
+                      radial-gradient(ellipse at 80% 80%, #1a2a4e 0%, transparent 60%);
+  }
+  header { text-align: center; padding: 48px 24px 32px; }
+  .header-badge {
+    display: inline-block; font-family: 'Courier New', Courier, monospace; font-size: 11px;
+    letter-spacing: 3px; text-transform: uppercase; color: var(--gold);
+    border: 1px solid var(--gold); padding: 4px 16px; margin-bottom: 16px; opacity: 0.85;
+  }
+  header h1 {
+    font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2.2rem,5vw,3.8rem);
+    font-weight: 900; color: var(--cream); line-height: 1.1; letter-spacing: -1px;
+  }
+  header h1 span { color: var(--gold); }
+  header p { color: #8899bb; font-size: 0.9rem; margin-top: 10px; font-weight: 300; letter-spacing: 0.5px; }
+
+  .app-container { max-width: 900px; margin: 0 auto; padding: 0 24px 60px; }
+
+  /* ── CONFIGURATOR ── */
+  .configurator {
+    background: var(--paper); border-radius: 2px; border: 1px solid var(--rule);
+    padding: 36px; margin-bottom: 28px;
+    box-shadow: 0 8px 40px var(--shadow), 0 2px 0 var(--gold);
+    position: relative; overflow: visible;
+  }
+  .bank-status {
+    font-family: 'Courier New', Courier, monospace; font-size: 11px;
+    letter-spacing: 0.5px; padding: 6px 14px; border-radius: 20px;
+    margin-bottom: 18px; display: inline-block;
+  }
+  .bank-status.loading { background: #fdf6e3; color: #b07800; border: 1px solid #e8d48a; }
+  .bank-status.ok      { background: #e8f5ee; color: var(--green); border: 1px solid #a0d4b0; }
+  .bank-status.error   { background: #fce8e8; color: var(--red); border: 1px solid #e8c0c0; }
+
+  .configurator::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+  }
+  .config-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+  @media(max-width:600px) { .config-grid { grid-template-columns: 1fr; } }
+
+  .config-group > label:first-child {
+    display: block; font-family: 'Courier New', Courier, monospace; font-size: 10px;
+    letter-spacing: 2px; text-transform: uppercase; color: #666; margin-bottom: 8px;
+  }
+  .config-group input[type=number] {
+    width: 100%; padding: 10px 14px; border: 1px solid var(--rule); border-radius: 2px;
+    background: white; font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; font-size: 0.95rem;
+    color: var(--ink); transition: border-color 0.2s;
+  }
+  .config-group input[type=number]:focus { outline: none; border-color: var(--gold); }
+  .select-wrap { position: relative; }
+  .select-wrap select {
+    width: 100%; padding: 10px 14px; border: 1px solid var(--rule); border-radius: 2px;
+    background: white; font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; font-size: 0.95rem;
+    color: var(--ink); appearance: none; cursor: pointer; transition: border-color 0.2s;
+  }
+  .select-wrap::after {
+    content: '▾'; position: absolute; right: 12px; top: 50%;
+    transform: translateY(-50%); color: var(--gold); pointer-events: none; font-size: 0.8rem;
+  }
+
+  /* ── LESSON MULTI-SELECT DROPDOWN ── */
+  .lesson-picker-wrap { grid-column: 1 / -1; position: relative; }
+  .lesson-picker-header {
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;
+  }
+  .lesson-picker-header > label { margin-bottom: 0 !important; }
+  .chapter-quick-links { display: flex; gap: 8px; }
+  .quick-link {
+    font-family: 'Courier New', Courier, monospace; font-size: 9px; letter-spacing: 1.5px;
+    text-transform: uppercase; color: var(--gold); background: none;
+    border: 1px solid var(--gold); padding: 3px 10px; border-radius: 20px;
+    cursor: pointer; transition: all 0.15s;
+  }
+  .quick-link:hover { background: var(--gold); color: white; }
+
+  /* The trigger button that looks like a select */
+  .ms-trigger {
+    width: 100%; padding: 10px 36px 10px 14px; border: 1px solid var(--rule);
+    border-radius: 2px; background: white; font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+    font-size: 0.88rem; color: var(--ink); text-align: left; cursor: pointer;
+    position: relative; transition: border-color 0.2s; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  .ms-trigger:focus { outline: none; border-color: var(--gold); }
+  .ms-trigger-wrap { position: relative; }
+  .ms-trigger-wrap::after {
+    content: '▾'; position: absolute; right: 12px; top: 50%;
+    transform: translateY(-50%); color: var(--gold); pointer-events: none; font-size: 0.8rem;
+  }
+
+  /* Dropdown panel */
+  .ms-panel {
+    display: none; position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+    background: white; border: 1px solid var(--rule); border-radius: 2px;
+    box-shadow: 0 8px 32px var(--shadow); z-index: 1000;
+    max-height: 380px; overflow-y: auto;
+  }
+  .ms-panel.open { display: block; }
+
+  /* Group headers inside dropdown */
+  .ms-group-header {
+    padding: 8px 14px 5px; font-family: 'Courier New', Courier, monospace; font-size: 9px;
+    letter-spacing: 2px; text-transform: uppercase; color: var(--gold);
+    background: #faf7f0; border-bottom: 1px solid var(--rule);
+    border-top: 1px solid var(--rule); position: sticky; top: 0; z-index: 1;
+    display: flex; align-items: center; justify-content: space-between;
+    cursor: pointer; user-select: none;
+  }
+  .ms-group-header:first-child { border-top: none; }
+  .ms-group-toggle {
+    font-family: 'Courier New', Courier, monospace; font-size: 8px; letter-spacing: 1px;
+    color: #aaa; background: none; border: none; cursor: pointer; padding: 0;
+  }
+  .ms-group-toggle:hover { color: var(--gold); }
+
+  /* Individual lesson options */
+  .ms-option {
+    display: flex; align-items: center; gap: 10px;
+    padding: 7px 14px 7px 24px; cursor: pointer; transition: background 0.1s;
+    user-select: none;
+  }
+  .ms-option:hover { background: #faf5e4; }
+  .ms-option input { display: none; }
+  .ms-cb-box {
+    width: 15px; height: 15px; border: 1.5px solid var(--rule); border-radius: 2px;
+    background: white; flex-shrink: 0; display: flex; align-items: center;
+    justify-content: center; transition: all 0.12s; font-size: 9px; color: white;
+  }
+  .ms-option input:checked + .ms-cb-box { background: var(--gold); border-color: var(--gold); }
+  .ms-option input:checked + .ms-cb-box::after { content: '✓'; }
+  .ms-lesson-num {
+    font-family: 'Courier New', Courier, monospace; font-size: 10px; color: var(--gold); min-width: 56px;
+  }
+  .ms-lesson-title { font-size: 0.82rem; color: #333; }
+  .ms-option input:checked ~ .ms-lesson-title { color: var(--ink); font-weight: 500; }
+
+  .lesson-selection-count {
+    font-family: 'Courier New', Courier, monospace; font-size: 10px; color: #999;
+    margin-top: 7px; letter-spacing: 1px;
+  }
+  .lesson-selection-count span { color: var(--gold); font-weight: 500; }
+
+  /* ── CHECKBOXES (question types) ── */
+  .checkbox-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .cb-item { display: flex; align-items: center; gap: 9px; cursor: pointer; user-select: none; }
+  .cb-item input { display: none; }
+  .cb-box {
+    width: 18px; height: 18px; border: 1.5px solid var(--rule); border-radius: 2px;
+    background: white; flex-shrink: 0; display: flex; align-items: center;
+    justify-content: center; transition: all 0.15s; font-size: 11px; color: white;
+  }
+  .cb-item input:checked + .cb-box { background: var(--gold); border-color: var(--gold); }
+  .cb-item input:checked + .cb-box::after { content: '✓'; }
+  .cb-label { font-size: 0.85rem; color: var(--ink); }
+
+  /* ── GENERATE BUTTON ── */
+  .btn-generate {
+    display: block; width: 100%; margin-top: 28px; padding: 16px;
+    background: var(--ink); color: var(--gold); border: none; border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace; font-size: 12px; letter-spacing: 3px;
+    text-transform: uppercase; cursor: pointer; transition: all 0.2s;
+  }
+  .btn-generate:hover { background: #2a2a4e; transform: translateY(-1px); box-shadow: 0 4px 20px rgba(201,168,76,0.3); }
+  .btn-generate:active { transform: translateY(0); }
+
+  /* ── QUIZ OUTPUT ── */
+  .quiz-output { display: none; }
+  .quiz-output.visible { display: block; }
+  .quiz-header {
+    background: var(--paper); border: 1px solid var(--rule); border-radius: 2px;
+    padding: 28px 36px 24px; margin-bottom: 4px; box-shadow: 0 4px 20px var(--shadow);
+    position: relative; overflow: hidden;
+  }
+  .quiz-header::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, var(--blue), #4a6ab0, var(--blue));
+  }
+  .quiz-meta { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+  .quiz-title-block h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 1.6rem; font-weight: 700; color: var(--ink); line-height: 1.2; }
+  .quiz-title-block .chapter-tag { font-family: 'Courier New', Courier, monospace; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--blue); margin-bottom: 6px; }
+  .quiz-info-block { text-align: right; }
+  .info-line { font-family: 'Courier New', Courier, monospace; font-size: 11px; color: #888; line-height: 2; }
+  .info-line span { color: var(--ink); font-weight: 500; }
+  .name-line { margin-top: 12px; border-bottom: 1px solid var(--rule); padding-bottom: 2px; font-size: 0.85rem; color: #999; min-width: 200px; }
+
+  /* ── QUESTION CARDS ── */
+  .questions-area { margin-top: 0; }
+  .question-card {
+    background: var(--paper); border: 1px solid var(--rule); border-top: none;
+    padding: 24px 36px; position: relative; transition: box-shadow 0.2s;
+  }
+  .question-card:last-child { border-radius: 0 0 2px 2px; margin-bottom: 0; box-shadow: 0 8px 30px var(--shadow); }
+  .question-card + .question-card { border-top: 1px solid var(--rule); }
+  .q-number-row { display: flex; align-items: flex-start; gap: 14px; }
+  .q-num { font-family: Georgia, 'Times New Roman', serif; font-size: 1.5rem; font-weight: 700; color: var(--gold); line-height: 1; min-width: 28px; }
+  .q-type-pill { font-family: 'Courier New', Courier, monospace; font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; padding: 2px 8px; border-radius: 20px; margin-top: 4px; }
+  .pill-mc { background: #e8f0ff; color: var(--blue); }
+  .pill-fib { background: #fff8e8; color: #8b6914; }
+  .pill-syw { background: #fce8e8; color: var(--red); }
+  .pill-wp  { background: #ede8fc; color: #4a1a8b; }
+  .q-body { flex: 1; }
+  .q-text { font-size: 0.97rem; line-height: 1.65; color: var(--ink); margin-bottom: 14px; }
+  .mc-options { list-style: none; display: grid; gap: 7px; }
+  .mc-options li { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; color: #333; padding: 7px 12px; border: 1px solid transparent; border-radius: 2px; transition: background 0.1s; }
+  .mc-options li:hover { background: #f0ece0; }
+  .opt-letter { font-family: 'Courier New', Courier, monospace; font-size: 11px; font-weight: 500; color: var(--gold); min-width: 18px; }
+  .fib-line { border-bottom: 1.5px solid var(--ink); display: inline-block; min-width: 160px; margin: 0 6px; height: 22px; vertical-align: bottom; }
+  .work-box { border: 1px solid var(--rule); border-radius: 2px; height: 90px; background: white; background-image: repeating-linear-gradient(transparent, transparent 24px, var(--rule) 24px, var(--rule) 25px); background-position: 0 25px; margin-top: 6px; }
+
+  /* ── REJECT BUTTON ── */
+  .btn-reject {
+    display: inline-flex; align-items: center; gap: 5px;
+    margin-top: 10px; padding: 5px 12px;
+    font-family: 'Courier New', Courier, monospace; font-size: 9px;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: #b03030; background: transparent;
+    border: 1px solid #e8c0c0; border-radius: 20px;
+    cursor: pointer; transition: all 0.15s; user-select: none;
+  }
+  .btn-reject:hover { background: #fce8e8; border-color: #c05050; color: #8b1a1a; }
+  .btn-reject:active { transform: scale(0.97); }
+  .btn-reject.replaced {
+    color: var(--green); border-color: #a0d4b0; pointer-events: none;
+    animation: fadeCheck 0.4s ease;
+  }
+  @keyframes fadeCheck { from { opacity:0; transform:scale(0.9); } to { opacity:1; transform:scale(1); } }
+  .question-card.replacing { opacity: 0.4; transition: opacity 0.2s; }
+  .question-card.refreshed { animation: slideIn 0.35s ease; }
+  @keyframes slideIn { from { opacity:0; transform:translateY(-6px); } to { opacity:1; transform:translateY(0); } }
+  .section-divider { display: flex; align-items: center; gap: 12px; padding: 10px 36px; background: #f0ece0; border: 1px solid var(--rule); border-top: none; border-bottom: none; }
+  .divider-label { font-family: 'Courier New', Courier, monospace; font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: #999; white-space: nowrap; }
+  .divider-rule { flex: 1; height: 1px; background: var(--rule); }
+
+  /* ── ACTION BUTTONS ── */
+  .action-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 4px; }
+  .btn-action { padding: 11px 24px; border: 1px solid; border-radius: 2px; font-family: 'Courier New', Courier, monospace; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; transition: all 0.15s; }
+  .btn-print { background: var(--ink); color: var(--gold); border-color: var(--ink); }
+  .btn-print:hover { background: #2a2a4e; }
+  .btn-answers { background: transparent; color: var(--green); border-color: var(--green); }
+  .btn-answers:hover { background: #e8f5ee; }
+  .btn-new { background: transparent; color: #888; border-color: #ccc; }
+  .btn-new:hover { background: #f5f0e8; color: var(--ink); }
+
+  /* ── ANSWER KEY ── */
+  .answer-key { background: #fff8e8; border: 1px solid #e8d48a; border-radius: 2px; padding: 24px 36px; margin-top: 16px; display: none; box-shadow: 0 4px 20px rgba(201,168,76,0.15); }
+  .answer-key.visible { display: block; }
+  .ak-print-header { font-size: 14pt; font-weight: bold; border-bottom: 1.5pt solid #000; padding-bottom: 7pt; margin-bottom: 10pt; display: none; }
+  .ak-print-meta { font-size: 9pt; color: #444; margin-bottom: 12pt; display: none; }
+  .ak-title { font-family: 'Courier New', Courier, monospace; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+  .ak-title::after { content: ''; flex: 1; height: 1px; background: var(--gold-light); }
+  .ak-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+  .ak-item { font-size: 0.85rem; display: flex; gap: 8px; align-items: baseline; }
+  .ak-num { font-family: 'Courier New', Courier, monospace; font-size: 11px; color: var(--gold); min-width: 24px; }
+  .ak-ans { color: var(--ink); font-weight: 500; }
+
+  /* ── SCORE BAR ── */
+  .score-bar { display: flex; align-items: center; gap: 20px; padding: 14px 36px; background: #f5f0e8; border: 1px solid var(--rule); border-top: none; font-family: 'Courier New', Courier, monospace; font-size: 11px; color: #888; letter-spacing: 1px; }
+  .score-bar span { color: var(--ink); }
+
+  @media print {
+    @page { size: letter; margin: 0.5in; }
+
+    /* ── Force true black-and-white — no color printing at all ── */
+    * {
+      -webkit-print-color-adjust: economy !important;
+      print-color-adjust: economy !important;
+      color-adjust: economy !important;
+      background: white !important;
+      background-image: none !important;
+      background-color: white !important;
+      color: black !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+      border-color: black !important;
+    }
+
+    /* ── Hide everything except the quiz output ── */
+    header, .configurator, .action-row, .score-bar,
+    .bank-status, .btn-reject { display: none !important; }
+    .quiz-output { display: block !important; }
+
+    /* ── Page visibility by print mode ── */
+    body.print-quiz  .answer-key    { display: none !important; }
+    body.print-ak    .questions-area,
+    body.print-ak    .score-bar,
+    body.print-ak    .quiz-header   { display: none !important; }
+    body.print-both  .print-quiz-wrap { page-break-after: always; break-after: page; }
+
+    /* ── Quiz output wrapper ── */
+    .quiz-output, .print-quiz-wrap, .questions-area, .answer-key {
+      border: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    /* ── Quiz header ── */
+    .quiz-header {
+      border: none !important;
+      border-bottom: 1pt solid black !important;
+      border-radius: 0 !important;
+      padding: 0 0 8pt 0 !important;
+      margin: 0 0 10pt 0 !important;
+    }
+    .quiz-header::before { display: none !important; }
+    .quiz-title-block h2 {
+      font-size: 15pt !important;
+      font-family: Georgia, serif !important;
+    }
+    .quiz-title-block .chapter-tag { font-size: 8pt !important; }
+    .info-line { font-size: 9pt !important; }
+    .name-line { border-bottom: 0.75pt solid black !important; }
+
+    /* ── Section dividers — text only, no background ── */
+    .section-divider {
+      padding: 4pt 0 !important;
+      border-top: 0.5pt solid black !important;
+      border-bottom: 0.5pt solid black !important;
+    }
+    .divider-rule { display: none !important; }
+    .divider-label {
+      font-size: 8pt !important;
+      font-family: 'Courier New', monospace !important;
+      letter-spacing: 1px !important;
+      text-transform: uppercase !important;
+      display: block !important;
+      text-align: center !important;
+    }
+
+    /* ── Question cards ── */
+    .question-card {
+      break-inside: avoid !important;
+      border: none !important;
+      border-top: 0.5pt solid black !important;
+      padding: 7pt 0 !important;
+      margin: 0 !important;
+    }
+    .question-card:first-child { border-top: none !important; }
+
+    /* ── Question type pills — outline only, no fill ── */
+    .q-type-pill {
+      font-size: 7pt !important;
+      font-family: 'Courier New', monospace !important;
+      border: 0.5pt solid black !important;
+      border-radius: 0 !important;
+      padding: 1pt 4pt !important;
+      background: white !important;
+      color: black !important;
+    }
+
+    /* ── Question number ── */
+    .q-num {
+      font-size: 12pt !important;
+      font-weight: bold !important;
+      color: black !important;
+      background: white !important;
+      border: none !important;
+      min-width: 18pt !important;
+      width: 18pt !important;
+    }
+
+    /* ── Question text ── */
+    .q-text { font-size: 11pt !important; line-height: 1.5 !important; }
+
+    /* ── Multiple choice ── */
+    .mc-options { list-style: none !important; padding: 0 !important; margin: 4pt 0 0 0 !important; }
+    .mc-options li {
+      font-size: 10.5pt !important;
+      padding: 1.5pt 0 !important;
+      border: none !important;
+      background: none !important;
+      display: flex !important;
+      gap: 6pt !important;
+    }
+    .mc-options li::before { display: none !important; }
+    .opt-letter { font-weight: bold !important; min-width: 14pt !important; }
+
+    /* ── Fill-in-the-blank line ── */
+    .fib-line {
+      display: inline-block !important;
+      border-bottom: 0.75pt solid black !important;
+      width: 80pt !important;
+      background: none !important;
+    }
+
+    /* ── Work box — plain ruled lines, no background color ── */
+    .work-box {
+      border: 0.75pt solid black !important;
+      background: white !important;
+      background-image: repeating-linear-gradient(
+        white, white 21pt, #ccc 21pt, #ccc 22pt
+      ) !important;
+      height: 72pt !important;
+      margin-top: 6pt !important;
+    }
+
+    /* ── Answer key ── */
+    .answer-key {
+      border: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .ak-print-header {
+      font-size: 14pt !important;
+      font-family: Georgia, serif !important;
+      font-weight: bold !important;
+      border-bottom: 1pt solid black !important;
+      padding-bottom: 6pt !important;
+      margin-bottom: 8pt !important;
+    }
+    .ak-print-meta {
+      font-size: 9pt !important;
+      margin-bottom: 12pt !important;
+    }
+    .ak-title { display: none !important; }
+    .ak-grid {
+      display: grid !important;
+      grid-template-columns: repeat(4, 1fr) !important;
+      gap: 4pt 8pt !important;
+    }
+    .ak-item {
+      font-size: 10pt !important;
+      border-bottom: 0.5pt solid #999 !important;
+      padding: 2pt 0 !important;
+    }
+    .ak-num { font-weight: bold !important; margin-right: 4pt !important; }
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-badge">Saxon Math · Grade 7–8</div>
+  <h1>Pop Quiz <span>Creator</span></h1>
+  <p>Saxon Math 8/7 · Incremental Development &amp; Review</p>
+</header>
+
+<div class="app-container">
+
+  <!-- CONFIGURATOR -->
+  <div class="configurator">
+      <div id="bankStatus" class="bank-status loading">Loading question bank…</div>
+    <div class="config-grid">
+
+      <!-- LESSON MULTI-SELECT DROPDOWN -->
+      <div class="config-group lesson-picker-wrap" style="grid-column:1/-1;">
+        <div class="lesson-picker-header">
+          <label>Lessons to Include</label>
+          <div class="chapter-quick-links">
+            <button class="quick-link" onclick="selectAllLessons(event)">Select All</button>
+            <button class="quick-link" onclick="clearAllLessons(event)">Clear All</button>
+          </div>
+        </div>
+        <div class="ms-trigger-wrap" id="msTriggerWrap">
+          <button class="ms-trigger" id="msTrigger" onclick="toggleDropdown(event)">
+            Lesson 1 · Place Value &amp; Numeration
+          </button>
+          <div class="ms-panel" id="msPanel">
+            <!-- populated by JS -->
+          </div>
+        </div>
+        <div class="lesson-selection-count" id="lessonCount"><span>1</span> lesson selected</div>
+      </div>
+
+      <!-- NUMBER OF QUESTIONS -->
+      <div class="config-group">
+        <label>Number of Questions</label>
+        <input type="number" id="qCount" value="10" min="5" max="20" />
+      </div>
+
+      <!-- DIFFICULTY -->
+      <div class="config-group">
+        <label>Difficulty Mix</label>
+        <div class="select-wrap">
+          <select id="diffSelect">
+            <option value="mixed">Mixed (recommended)</option>
+            <option value="easy">Mostly Easy</option>
+            <option value="hard">Challenging</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- QUESTION TYPES -->
+      <div class="config-group" style="grid-column:1/-1;">
+        <label>Question Types to Include</label>
+        <div class="checkbox-grid">
+          <label class="cb-item"><input type="checkbox" id="cbMC" checked><span class="cb-box"></span><span class="cb-label">Multiple Choice</span></label>
+          <label class="cb-item"><input type="checkbox" id="cbFIB" checked><span class="cb-box"></span><span class="cb-label">Fill in the Blank</span></label>
+          <label class="cb-item"><input type="checkbox" id="cbSYW" checked><span class="cb-box"></span><span class="cb-label">Show Your Work</span></label>
+          <label class="cb-item"><input type="checkbox" id="cbWP" checked><span class="cb-box"></span><span class="cb-label">Word Problems</span></label>
+        </div>
+      </div>
+
+    </div>
+    <button class="btn-generate" onclick="generateQuiz()">⬡ Generate Quiz</button>
+  </div>
+
+  <!-- QUIZ OUTPUT -->
+  <div class="quiz-output" id="quizOutput">
+    <div class="quiz-header">
+      <div class="quiz-meta">
+        <div class="quiz-title-block">
+          <div class="chapter-tag" id="outChapterTag">—</div>
+          <h2 id="outTitle">Saxon Math 8/7 — Pop Quiz</h2>
+        </div>
+        <div class="quiz-info-block">
+          <div class="info-line">Name: <div class="name-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></div>
+          <div class="info-line">Date: <span id="outDate">—</span></div>
+          <div class="info-line">Score: <span>_____ / <span id="outTotal">—</span></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="print-quiz-wrap" id="printQuizWrap">
+    <div class="score-bar">
+      <span id="outQCount">—</span> questions &nbsp;·&nbsp; Show all work for full credit &nbsp;·&nbsp; No calculators unless noted
+    </div>
+
+    <div class="questions-area" id="questionsArea"></div>
+    </div><!-- end print-quiz-wrap -->
+
+    <div class="action-row" style="margin-bottom:24px;">
+      <button class="btn-action btn-print" onclick="printMode('quiz')">⎙ Print Quiz</button>
+      <button class="btn-action btn-print" onclick="printMode('ak')" style="background:#1a3a6b;color:#e8d48a;border-color:#1a3a6b;">⎙ Print Answer Key</button>
+      <button class="btn-action btn-print" onclick="printMode('both')" style="background:#1a6b3c;color:#b8e8c8;border-color:#1a6b3c;">⎙ Print Both</button>
+      <button class="btn-action btn-answers" onclick="toggleAnswers()">◎ Toggle Answer Key</button>
+      <button class="btn-action btn-new" onclick="generateQuiz()">↺ Regenerate</button>
+    </div>
+
+
+    <div class="answer-key" id="answerKey">
+      <div class="ak-print-header" id="akPrintHeader" style="display:none;">Saxon Math 8/7 — Answer Key</div>
+      <div class="ak-print-meta" id="akPrintMeta" style="display:none;"></div>
+      <div class="ak-title">Answer Key</div>
+      <div class="ak-grid" id="akGrid"></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════
+// LESSON DEFINITIONS  (120 individual lessons)
+// Each lesson maps to a chapter group (1-12) for
+// question-bank lookup, plus has its own title.
+// ═══════════════════════════════════════════════════
+const LESSONS = [
+  // Chapter 1 — Whole Numbers & Place Value
+  { num:1,  chapter:1, title:"Place Value & Numeration" },
+  { num:2,  chapter:1, title:"Addition & Subtraction of Whole Numbers" },
+  { num:3,  chapter:1, title:"Multiplication of Whole Numbers" },
+  { num:4,  chapter:1, title:"Division of Whole Numbers" },
+  { num:5,  chapter:1, title:"Divisibility Rules" },
+  { num:6,  chapter:1, title:"Prime & Composite Numbers" },
+  { num:7,  chapter:1, title:"Prime Factorization" },
+  { num:8,  chapter:1, title:"GCF & LCM" },
+  { num:9,  chapter:1, title:"Estimation & Rounding" },
+  { num:10, chapter:1, title:"Order of Operations" },
+  // Chapter 2 — Fractions & Mixed Numbers
+  { num:11, chapter:2, title:"Introduction to Fractions" },
+  { num:12, chapter:2, title:"Equivalent Fractions" },
+  { num:13, chapter:2, title:"Simplifying Fractions" },
+  { num:14, chapter:2, title:"Comparing & Ordering Fractions" },
+  { num:15, chapter:2, title:"Adding Fractions (Like Denominators)" },
+  { num:16, chapter:2, title:"Adding Fractions (Unlike Denominators)" },
+  { num:17, chapter:2, title:"Subtracting Fractions" },
+  { num:18, chapter:2, title:"Mixed Numbers & Improper Fractions" },
+  { num:19, chapter:2, title:"Multiplying Fractions" },
+  { num:20, chapter:2, title:"Dividing Fractions" },
+  // Chapter 3 — Decimals & Percents
+  { num:21, chapter:3, title:"Decimal Place Value" },
+  { num:22, chapter:3, title:"Comparing & Ordering Decimals" },
+  { num:23, chapter:3, title:"Adding & Subtracting Decimals" },
+  { num:24, chapter:3, title:"Multiplying Decimals" },
+  { num:25, chapter:3, title:"Dividing Decimals" },
+  { num:26, chapter:3, title:"Fractions, Decimals & Percents" },
+  { num:27, chapter:3, title:"Finding a Percent of a Number" },
+  { num:28, chapter:3, title:"Percent Problems" },
+  { num:29, chapter:3, title:"Discount & Sales Tax" },
+  { num:30, chapter:3, title:"Percent of Change" },
+  // Chapter 4 — Geometry Basics
+  { num:31, chapter:4, title:"Points, Lines & Planes" },
+  { num:32, chapter:4, title:"Angles & Angle Measurement" },
+  { num:33, chapter:4, title:"Classifying Angles" },
+  { num:34, chapter:4, title:"Parallel & Perpendicular Lines" },
+  { num:35, chapter:4, title:"Classifying Triangles" },
+  { num:36, chapter:4, title:"Triangle Angle Sum" },
+  { num:37, chapter:4, title:"Quadrilaterals" },
+  { num:38, chapter:4, title:"Polygons" },
+  { num:39, chapter:4, title:"Symmetry & Transformations" },
+  { num:40, chapter:4, title:"Congruence & Similarity" },
+  // Chapter 5 — Ratio & Proportion
+  { num:41, chapter:5, title:"Introduction to Ratios" },
+  { num:42, chapter:5, title:"Unit Rates" },
+  { num:43, chapter:5, title:"Proportions" },
+  { num:44, chapter:5, title:"Solving Proportions" },
+  { num:45, chapter:5, title:"Scale Drawings" },
+  { num:46, chapter:5, title:"Maps & Scale Factors" },
+  { num:47, chapter:5, title:"Similar Figures & Proportions" },
+  { num:48, chapter:5, title:"Direct Variation" },
+  { num:49, chapter:5, title:"Rate Problems" },
+  { num:50, chapter:5, title:"Proportional Relationships" },
+  // Chapter 6 — Integers & Coordinate Plane
+  { num:51, chapter:6, title:"Introduction to Integers" },
+  { num:52, chapter:6, title:"Comparing & Ordering Integers" },
+  { num:53, chapter:6, title:"Adding Integers" },
+  { num:54, chapter:6, title:"Subtracting Integers" },
+  { num:55, chapter:6, title:"Multiplying Integers" },
+  { num:56, chapter:6, title:"Dividing Integers" },
+  { num:57, chapter:6, title:"The Coordinate Plane" },
+  { num:58, chapter:6, title:"Graphing Points & Polygons" },
+  { num:59, chapter:6, title:"Reflections on the Coordinate Plane" },
+  { num:60, chapter:6, title:"Integer Word Problems" },
+  // Chapter 7 — Probability & Statistics
+  { num:61, chapter:7, title:"Introduction to Probability" },
+  { num:62, chapter:7, title:"Theoretical vs. Experimental Probability" },
+  { num:63, chapter:7, title:"Compound Events" },
+  { num:64, chapter:7, title:"Tree Diagrams & Sample Spaces" },
+  { num:65, chapter:7, title:"Mean, Median, Mode & Range" },
+  { num:66, chapter:7, title:"Stem-and-Leaf Plots" },
+  { num:67, chapter:7, title:"Bar Graphs & Histograms" },
+  { num:68, chapter:7, title:"Circle Graphs" },
+  { num:69, chapter:7, title:"Line Graphs & Scatter Plots" },
+  { num:70, chapter:7, title:"Making Predictions from Data" },
+  // Chapter 8 — Algebraic Expressions & Equations
+  { num:71, chapter:8, title:"Variables & Expressions" },
+  { num:72, chapter:8, title:"Evaluating Expressions" },
+  { num:73, chapter:8, title:"Simplifying Expressions" },
+  { num:74, chapter:8, title:"Writing Equations" },
+  { num:75, chapter:8, title:"Solving Addition & Subtraction Equations" },
+  { num:76, chapter:8, title:"Solving Multiplication & Division Equations" },
+  { num:77, chapter:8, title:"Two-Step Equations" },
+  { num:78, chapter:8, title:"The Distributive Property" },
+  { num:79, chapter:8, title:"Inequalities" },
+  { num:80, chapter:8, title:"Equation Word Problems" },
+  // Chapter 9 — Measurement & Scale
+  { num:81, chapter:9, title:"Customary Units of Length" },
+  { num:82, chapter:9, title:"Customary Units of Weight & Capacity" },
+  { num:83, chapter:9, title:"Metric Units of Length" },
+  { num:84, chapter:9, title:"Metric Units of Mass & Capacity" },
+  { num:85, chapter:9, title:"Converting Between Units" },
+  { num:86, chapter:9, title:"Time & Temperature" },
+  { num:87, chapter:9, title:"Scale Drawings & Models" },
+  { num:88, chapter:9, title:"Precision & Significant Digits" },
+  { num:89, chapter:9, title:"Measurement Word Problems" },
+  { num:90, chapter:9, title:"Converting Between Systems" },
+  // Chapter 10 — Area, Perimeter & Volume
+  { num:91,  chapter:10, title:"Perimeter of Polygons" },
+  { num:92,  chapter:10, title:"Area of Rectangles & Squares" },
+  { num:93,  chapter:10, title:"Area of Triangles" },
+  { num:94,  chapter:10, title:"Area of Parallelograms & Trapezoids" },
+  { num:95,  chapter:10, title:"Circumference of Circles" },
+  { num:96,  chapter:10, title:"Area of Circles" },
+  { num:97,  chapter:10, title:"Composite Figures" },
+  { num:98,  chapter:10, title:"Surface Area" },
+  { num:99,  chapter:10, title:"Volume of Prisms" },
+  { num:100, chapter:10, title:"Volume of Cylinders" },
+  // Chapter 11 — Powers, Roots & Scientific Notation
+  { num:101, chapter:11, title:"Exponents & Powers" },
+  { num:102, chapter:11, title:"Evaluating Powers" },
+  { num:103, chapter:11, title:"Square Roots" },
+  { num:104, chapter:11, title:"Estimating Square Roots" },
+  { num:105, chapter:11, title:"The Pythagorean Theorem" },
+  { num:106, chapter:11, title:"Scientific Notation (Large Numbers)" },
+  { num:107, chapter:11, title:"Scientific Notation (Small Numbers)" },
+  { num:108, chapter:11, title:"Operations with Scientific Notation" },
+  { num:109, chapter:11, title:"Laws of Exponents" },
+  { num:110, chapter:11, title:"Perfect Squares & Cubes" },
+  // Chapter 12 — Mixed Review & Problem Solving
+  { num:111, chapter:12, title:"Multi-Step Problem Solving" },
+  { num:112, chapter:12, title:"Patterns & Sequences" },
+  { num:113, chapter:12, title:"Simple Interest" },
+  { num:114, chapter:12, title:"Compound Interest Concepts" },
+  { num:115, chapter:12, title:"Slope & Rate of Change" },
+  { num:116, chapter:12, title:"Graphing Linear Equations" },
+  { num:117, chapter:12, title:"Functions & Relations" },
+  { num:118, chapter:12, title:"Systems of Equations (Introduction)" },
+  { num:119, chapter:12, title:"Mixed Review: Geometry & Measurement" },
+  { num:120, chapter:12, title:"Mixed Review: Number Sense & Algebra" },
+];
+
+// ═══════════════════════════════════════════════════
+// QUESTION BANK  — loaded from GitHub at runtime
+// ═══════════════════════════════════════════════════
+let BANK = null;
+let bankLoadError = false;
+
+// ── Update this URL to your raw GitHub URL after uploading question_bank.json ──
+const BANK_URL = 'https://raw.githubusercontent.com/hamdigger/saxon-math-bank/refs/heads/main/question_bank.json';
+
+async function loadBank() {
+  if (BANK) return true;
+  const statusEl = document.getElementById('bankStatus');
+  try {
+    statusEl.textContent = 'Loading question bank…';
+    statusEl.className = 'bank-status loading';
+    const res = await fetch(BANK_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const raw = await res.json();
+    // Convert string keys to numbers and match expected structure
+    BANK = {};
+    for (const [k, v] of Object.entries(raw)) {
+      BANK[parseInt(k)] = v;
+    }
+    statusEl.textContent = '✓ Question bank loaded';
+    statusEl.className = 'bank-status ok';
+    return true;
+  } catch(e) {
+    bankLoadError = true;
+    statusEl.textContent = '✗ Could not load question bank. Check your network or BANK_URL.';
+    statusEl.className = 'bank-status error';
+    console.error('Bank load failed:', e);
+    return false;
+  }
+}
+
+// Auto-load on page open
+window.addEventListener('DOMContentLoaded', loadBank);
+
+
+const CHAPTER_NAMES = {
+  1:"Whole Numbers & Place Value", 2:"Fractions & Mixed Numbers",
+  3:"Decimals & Percents", 4:"Geometry Basics", 5:"Ratio & Proportion",
+  6:"Integers & Coordinate Plane", 7:"Probability & Statistics",
+  8:"Algebraic Expressions & Equations", 9:"Measurement & Scale",
+  10:"Area, Perimeter & Volume", 11:"Powers, Roots & Scientific Notation",
+  12:"Mixed Review & Problem Solving"
+};
+
+// ═══════════════════════════════════════════════════
+// BUILD DROPDOWN
+// ═══════════════════════════════════════════════════
+(function buildDropdown() {
+  const panel = document.getElementById('msPanel');
+  let currentChapter = null;
+  let groupEl = null;
+
+  LESSONS.forEach(lesson => {
+    if (lesson.chapter !== currentChapter) {
+      currentChapter = lesson.chapter;
+      const hdr = document.createElement('div');
+      hdr.className = 'ms-group-header';
+      hdr.innerHTML = `
+        <span>Ch. ${lesson.chapter} — ${CHAPTER_NAMES[lesson.chapter]}</span>
+        <button class="ms-group-toggle" data-ch="${lesson.chapter}" onclick="toggleChapterGroup(event, ${lesson.chapter})">all</button>`;
+      panel.appendChild(hdr);
+    }
+
+    const opt = document.createElement('label');
+    opt.className = 'ms-option';
+    const checked = lesson.num === 1 ? 'checked' : '';
+    opt.innerHTML = `
+      <input type="checkbox" class="lesson-cb" value="${lesson.num}" data-chapter="${lesson.chapter}" ${checked} onchange="onLessonChange()">
+      <span class="ms-cb-box"></span>
+      <span class="ms-lesson-num">Lesson ${lesson.num}</span>
+      <span class="ms-lesson-title">${lesson.title}</span>`;
+    panel.appendChild(opt);
+  });
+})();
+
+// ═══════════════════════════════════════════════════
+// DROPDOWN CONTROLS
+// ═══════════════════════════════════════════════════
+function toggleDropdown(e) {
+  e.stopPropagation();
+  document.getElementById('msPanel').classList.toggle('open');
+}
+document.addEventListener('click', function(e) {
+  const wrap = document.getElementById('msTriggerWrap');
+  if (!wrap.contains(e.target)) {
+    document.getElementById('msPanel').classList.remove('open');
+  }
+});
+
+function toggleChapterGroup(e, ch) {
+  e.stopPropagation();
+  const boxes = document.querySelectorAll(`.lesson-cb[data-chapter="${ch}"]`);
+  const anyUnchecked = [...boxes].some(b => !b.checked);
+  boxes.forEach(b => b.checked = anyUnchecked);
+  onLessonChange();
+}
+
+function selectAllLessons(e) {
+  e.stopPropagation();
+  document.querySelectorAll('.lesson-cb').forEach(cb => cb.checked = true);
+  onLessonChange();
+}
+function clearAllLessons(e) {
+  e.stopPropagation();
+  document.querySelectorAll('.lesson-cb').forEach(cb => cb.checked = false);
+  onLessonChange();
+}
+
+function onLessonChange() {
+  const checked = [...document.querySelectorAll('.lesson-cb:checked')];
+  const n = checked.length;
+  document.getElementById('lessonCount').innerHTML =
+    `<span>${n}</span> lesson${n !== 1 ? "s" : ""} selected`;
+
+  // Update trigger button text
+  const trigger = document.getElementById('msTrigger');
+  if (n === 0) {
+    trigger.textContent = 'No lessons selected';
+  } else if (n === 1) {
+    const l = LESSONS.find(l => l.num === parseInt(checked[0].value));
+    trigger.textContent = `Lesson ${l.num} · ${l.title}`;
+  } else if (n <= 4) {
+    trigger.textContent = checked.map(cb => `Lesson ${cb.value}`).join(', ');
+  } else {
+    trigger.textContent = `${n} lessons selected`;
+  }
+}
+
+// ═══════════════════════════════════════════════════
+// QUESTION BANK
+// ═══════════════════════════════════════════════════
+
+// ═══════════════════════════════════════════════════
+// QUIZ GENERATOR
+// ═══════════════════════════════════════════════════
+function shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5); }
+
+async function generateQuiz() {
+  if (!(await loadBank())) return;
+  document.getElementById('msPanel').classList.remove('open');
+
+  const checkedBoxes = [...document.querySelectorAll('.lesson-cb:checked')];
+  if (checkedBoxes.length === 0) { alert('Please select at least one lesson!'); return; }
+
+  const total   = parseInt(document.getElementById('qCount').value);
+  const useMC   = document.getElementById('cbMC').checked;
+  const useFIB  = document.getElementById('cbFIB').checked;
+  const useSYW  = document.getElementById('cbSYW').checked;
+  const useWP   = document.getElementById('cbWP').checked;
+  const enabledTypes = [];
+  if (useMC)  enabledTypes.push('mc');
+  if (useFIB) enabledTypes.push('fib');
+  if (useSYW) enabledTypes.push('syw');
+  if (useWP)  enabledTypes.push('wp');
+  if (enabledTypes.length === 0) { alert('Please select at least one question type!'); return; }
+
+  // Identify unique chapters covered by selected lessons
+  const selectedLessons = checkedBoxes.map(cb => parseInt(cb.value));
+  const selectedLessonObjs = selectedLessons.map(n => LESSONS.find(l => l.num === n));
+  const chapterSet = [...new Set(selectedLessonObjs.map(l => l.chapter))];
+
+  // Pool questions from those chapters
+  const poolByType = {};
+  enabledTypes.forEach(t => poolByType[t] = []);
+  chapterSet.forEach(ch => {
+    const data = BANK[ch];
+    enabledTypes.forEach(type => {
+      if (data[type]) data[type].forEach(q => poolByType[type].push({ ...q, type, chapter: ch }));
+    });
+  });
+  enabledTypes.forEach(t => { poolByType[t] = shuffle(poolByType[t]); });
+
+  // Round-robin fill
+  const selected = [];
+  let typeIdx = 0, attempts = 0;
+  while (selected.length < total && attempts < total * enabledTypes.length * 3) {
+    attempts++;
+    const type = enabledTypes[typeIdx % enabledTypes.length];
+    typeIdx++;
+    if (poolByType[type].length > 0) selected.push(poolByType[type].shift());
+  }
+
+  // Save quiz state globally for reject/replace feature
+  window._quizState = {
+    selected:    selected.map(q => ({...q})),   // current quiz questions (mutable)
+    reserve:     poolByType,                     // leftover questions by type
+    multiCh:     chapterSet.length > 1,
+    usedQTexts:  new Set(selected.map(q => q.q)) // track used question text to avoid dupes
+  };
+
+  // Build tag label
+  const lessonNums = selectedLessons.sort((a,b)=>a-b);
+  let tagText;
+  if (lessonNums.length === 1) {
+    const l = selectedLessonObjs[0];
+    tagText = `Lesson ${l.num} · ${l.title}`;
+  } else if (lessonNums.length <= 5) {
+    tagText = lessonNums.map(n => `L${n}`).join(', ');
+  } else {
+    tagText = `${lessonNums.length} Lessons Selected`;
+  }
+
+  let quizTitle;
+  if (chapterSet.length === 1) {
+    quizTitle = `Saxon Math 8/7 — ${BANK[chapterSet[0]].title}`;
+  } else {
+    quizTitle = 'Saxon Math 8/7 — Mixed Lesson Quiz';
+  }
+
+  document.getElementById('outChapterTag').textContent = tagText;
+  document.getElementById('outTitle').textContent = quizTitle;
+  document.getElementById('outDate').textContent = new Date().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+  document.getElementById('outTotal').textContent = selected.length;
+  document.getElementById('outQCount').textContent = selected.length;
+
+  // Render questions
+  const area = document.getElementById('questionsArea');
+  area.innerHTML = '';
+  const answers = [];
+  let seenTypes = [];
+
+  selected.forEach((q, i) => {
+    if (!seenTypes.includes(q.type)) {
+      seenTypes.push(q.type);
+      if (i > 0) {
+        const div = document.createElement('div');
+        div.className = 'section-divider';
+        div.innerHTML = `<span class="divider-rule"></span><span class="divider-label">${typeLabel(q.type)}</span><span class="divider-rule"></span>`;
+        area.appendChild(div);
+      }
+    }
+    const card = document.createElement('div');
+    card.className = 'question-card';
+    card.innerHTML = buildQuestion(q, i + 1);
+    area.appendChild(card);
+    answers.push({ num: i+1, type: q.type, ans: getAnsDisplay(q), chapter: q.chapter });
+  });
+
+  // Answer key — delegate to shared helper
+  renderAnswerKey(answers, chapterSet.length > 1);
+
+  document.getElementById('quizOutput').classList.add('visible');
+  document.getElementById('answerKey').classList.remove('visible');
+  document.getElementById('quizOutput').scrollIntoView({ behavior:'smooth', block:'start' });
+}
+
+function typeLabel(t) { return {mc:'Multiple Choice',fib:'Fill in the Blank',syw:'Show Your Work',wp:'Word Problems'}[t]||t; }
+function getAnsDisplay(q) {
+  if (q.type==='mc') return q.opts[q.ans];
+  return q.ans;
+}
+function buildQuestion(q, num) {
+  const pill = {mc:'pill-mc',fib:'pill-fib',syw:'pill-syw',wp:'pill-wp'}[q.type];
+  const pillLabel = {mc:'MC',fib:'Fill Blank',syw:'Show Work',wp:'Word Problem'}[q.type];
+  let body = '';
+  if (q.type==='mc') {
+    const L = ['A','B','C','D'];
+    body = `<p class="q-text">${q.q}</p><ul class="mc-options">${q.opts.map((o,i)=>`<li><span class="opt-letter">${L[i]}.</span> ${o}</li>`).join('')}</ul>`;
+  } else if (q.type==='fib') {
+    const parts = q.q.split('_____');
+    body = parts.length===2
+      ? `<p class="q-text">${parts[0]}<span class="fib-line"></span>${parts[1]}</p>`
+      : `<p class="q-text">${q.q} <span class="fib-line"></span></p>`;
+  } else if (q.type==='syw') {
+    body = `<p class="q-text">${q.q}</p><div class="work-box"></div>`;
+  } else if (q.type==='wp') {
+    body = `<p class="q-text">${q.q}</p><div class="work-box" style="height:110px;"></div>`;
+  }
+  return `<div class="q-number-row"><div class="q-num">${num}</div><div class="q-type-pill ${pill}">${pillLabel}</div><div class="q-body">${body}<button class="btn-reject" onclick="rejectQuestion(${num})">↺ Replace this question</button></div></div>`;
+}
+
+// ── shared answer key renderer ────────────────────────────────────────────
+function renderAnswerKey(answers, multiCh) {
+  const akGrid = document.getElementById('akGrid');
+  akGrid.innerHTML = '';
+  answers.forEach(a => {
+    const item = document.createElement('div');
+    item.className = 'ak-item';
+    const suffix = multiCh
+      ? `<span style="font-family:'Courier New',Courier,monospace;font-size:9px;color:#aaa;margin-left:4px;">[L${(a.chapter-1)*10+1}–${a.chapter*10}]</span>`
+      : '';
+    item.innerHTML = `<span class="ak-num">${a.num}.</span><span class="ak-ans">${a.ans}${suffix}</span>`;
+    akGrid.appendChild(item);
+  });
+}
+
+// ── replace a single question by number (1-indexed) ──────────────────────
+function rejectQuestion(num) {
+  const state = window._quizState;
+  if (!state) return;
+
+  const idx = num - 1;
+  const oldQ = state.selected[idx];
+  const type = oldQ.type;
+  const chapter = oldQ.chapter;
+
+  // Pull a replacement from the reserve pool of the same type
+  // that hasn't been used yet and is from same chapter group
+  let replacement = null;
+  const reserve = state.reserve[type] || [];
+
+  // First try: same chapter
+  let rIdx = reserve.findIndex(q => q.chapter === chapter && !state.usedQTexts.has(q.q));
+  // Fallback: any chapter in reserve (same type)
+  if (rIdx === -1) rIdx = reserve.findIndex(q => !state.usedQTexts.has(q.q));
+
+  if (rIdx !== -1) {
+    replacement = reserve.splice(rIdx, 1)[0];
+  } else {
+    // Last resort: pull fresh from the full bank for that chapter, same type
+    const bankPool = (BANK[chapter][type] || []).filter(q => !state.usedQTexts.has(q.q));
+    if (bankPool.length > 0) {
+      const pick = bankPool[Math.floor(Math.random() * bankPool.length)];
+      replacement = { ...pick, type, chapter };
+    }
+  }
+
+  if (!replacement) {
+    // Flash the button to indicate no more questions available
+    const btn = document.querySelector(`.question-card:nth-of-type(${num}) .btn-reject`);
+    if (btn) { btn.textContent = '✗ No more available'; btn.style.color = '#999'; btn.style.borderColor = '#ccc'; }
+    return;
+  }
+
+  // Update state
+  state.usedQTexts.delete(oldQ.q);
+  state.usedQTexts.add(replacement.q);
+  state.selected[idx] = replacement;
+
+  // Re-render just this card
+  const cards = document.querySelectorAll('.question-card');
+  const card = cards[idx];
+  if (card) {
+    card.classList.add('replacing');
+    setTimeout(() => {
+      card.innerHTML = buildQuestion(replacement, num);
+      card.classList.remove('replacing');
+      card.classList.add('refreshed');
+      setTimeout(() => card.classList.remove('refreshed'), 400);
+    }, 180);
+  }
+
+  // Rebuild full answer key from updated state
+  const answers = state.selected.map((q, i) => ({
+    num: i + 1, type: q.type, ans: getAnsDisplay(q), chapter: q.chapter
+  }));
+  renderAnswerKey(answers, state.multiCh);
+}
+
+function toggleAnswers() {
+  const ak = document.getElementById('answerKey');
+  ak.classList.toggle('visible');
+  document.getElementById('akPrintHeader').style.display = 'none';
+  document.getElementById('akPrintMeta').style.display = 'none';
+  if (ak.classList.contains('visible')) ak.scrollIntoView({ behavior:'smooth', block:'start' });
+}
+
+function printMode(mode) {
+  const ak = document.getElementById('answerKey');
+  const header = document.getElementById('akPrintHeader');
+  const meta = document.getElementById('akPrintMeta');
+  const title = document.getElementById('outTitle').textContent;
+  const date  = document.getElementById('outDate').textContent;
+  const total = document.getElementById('outTotal').textContent;
+  meta.textContent = `${title}  ·  ${date}  ·  ${total} Questions`;
+  ak.classList.add('visible');
+  header.style.display = 'block';
+  meta.style.display = 'block';
+  document.body.classList.remove('print-quiz','print-ak','print-both');
+  document.body.classList.add('print-' + mode);
+  window.print();
+  setTimeout(() => {
+    document.body.classList.remove('print-quiz','print-ak','print-both');
+    header.style.display = 'none';
+    meta.style.display = 'none';
+    if (mode==='quiz') ak.classList.remove('visible');
+  }, 500);
+}
+</script>
+</body>
+</html>
