@@ -1,0 +1,5824 @@
+{
+  "1": {
+    "title": "Whole Numbers & Place Value",
+    "mc": [
+      {
+        "q": "What is the value of the digit 7 in 3,742,861?",
+        "opts": [
+          "7,000",
+          "70,000",
+          "700,000",
+          "7,000,000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which is the standard form of 'four million, sixty-two thousand, nine'?",
+        "opts": [
+          "4,620,009",
+          "4,062,009",
+          "4,062,900",
+          "4,602,009"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Round 4,867 to the nearest hundred.",
+        "opts": [
+          "4,800",
+          "4,900",
+          "5,000",
+          "4,870"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which number is NOT divisible by 6?",
+        "opts": [
+          "42",
+          "54",
+          "68",
+          "72"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the GCF of 24 and 36?",
+        "opts": [
+          "4",
+          "6",
+          "8",
+          "12"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "What is the LCM of 4 and 6?",
+        "opts": [
+          "2",
+          "12",
+          "18",
+          "24"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which property is shown? 5 × (3+4) = 5×3 + 5×4",
+        "opts": [
+          "Commutative",
+          "Associative",
+          "Distributive",
+          "Identity"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Estimate 4,823 × 7 by rounding to the nearest thousand.",
+        "opts": [
+          "28,000",
+          "35,000",
+          "32,000",
+          "30,000"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is the value of the digit 4 in 7,403,219?",
+        "opts": [
+          "4,000",
+          "40,000",
+          "400,000",
+          "4,000,000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which number is prime?",
+        "opts": [
+          "27",
+          "33",
+          "41",
+          "51"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the GCF of 36 and 48?",
+        "opts": [
+          "6",
+          "9",
+          "12",
+          "16"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the LCM of 5 and 8?",
+        "opts": [
+          "13",
+          "20",
+          "40",
+          "80"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which property is shown? (3 × 5) × 2 = 3 × (5 × 2)?",
+        "opts": [
+          "Commutative",
+          "Associative",
+          "Distributive",
+          "Identity"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Round 83,549 to the nearest ten-thousand.",
+        "opts": [
+          "80,000",
+          "83,000",
+          "84,000",
+          "90,000"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which number is composite?",
+        "opts": [
+          "13",
+          "17",
+          "19",
+          "21"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "What is 12 × 0?",
+        "opts": [
+          "0",
+          "1",
+          "12",
+          "undefined"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is the LCM of 6 and 9?",
+        "opts": [
+          "3",
+          "18",
+          "27",
+          "54"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which shows the distributive property?",
+        "opts": [
+          "3+4=4+3",
+          "2×(6+1)=2×6+2×1",
+          "(3×4)×5=3×(4×5)",
+          "7×1=7"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which is divisible by 9?",
+        "opts": [
+          "124",
+          "234",
+          "315",
+          "412"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the GCF of 45 and 60?",
+        "opts": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the prime factorization of 36?",
+        "opts": [
+          "2²×3²",
+          "2³×3",
+          "2²×9",
+          "4×9"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which number is divisible by both 3 and 4?",
+        "opts": [
+          "14",
+          "22",
+          "36",
+          "50"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Estimate 793 ÷ 8 by rounding the dividend to the nearest hundred.",
+        "opts": [
+          "80",
+          "100",
+          "110",
+          "125"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 7 × 8 × 0 × 12?",
+        "opts": [
+          "0",
+          "672",
+          "96",
+          "undefined"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which list shows only prime numbers?",
+        "opts": [
+          "2,4,6",
+          "3,7,11",
+          "5,9,13",
+          "7,11,15"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is the LCM of 3, 4, and 6?",
+        "opts": [
+          "6",
+          "12",
+          "18",
+          "24"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is the GCF of 30, 45, and 75?",
+        "opts": [
+          "3",
+          "5",
+          "15",
+          "30"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which number has the digit 8 in the millions place?",
+        "opts": [
+          "8,200",
+          "82,000",
+          "8,200,000",
+          "820,000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which property justifies: 9 + 0 = 9?",
+        "opts": [
+          "Commutative",
+          "Associative",
+          "Identity",
+          "Distributive"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 56 ÷ 8?",
+        "opts": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "ans": 1
+      }
+    ],
+    "fib": [
+      {
+        "q": "The prime factorization of 60 is 2² × _____ × 5.",
+        "ans": "3"
+      },
+      {
+        "q": "The LCM of 8 and 12 is _____.",
+        "ans": "24"
+      },
+      {
+        "q": "In 5,304,712, the digit 3 is in the _____ place.",
+        "ans": "hundred thousands"
+      },
+      {
+        "q": "A number divisible by both 2 and 5 must end in _____.",
+        "ans": "0"
+      },
+      {
+        "q": "The GCF of 18 and 30 is _____.",
+        "ans": "6"
+      },
+      {
+        "q": "The prime factorization of 72 is 2³ × _____.",
+        "ans": "3²"
+      },
+      {
+        "q": "The LCM of 9 and 12 is _____.",
+        "ans": "36"
+      },
+      {
+        "q": "The GCF of 56 and 84 is _____.",
+        "ans": "28"
+      },
+      {
+        "q": "Any number multiplied by 1 equals _____.",
+        "ans": "itself"
+      },
+      {
+        "q": "A number is divisible by 3 if the sum of its digits is divisible by _____.",
+        "ans": "3"
+      },
+      {
+        "q": "The LCM of 7 and 14 is _____.",
+        "ans": "14"
+      },
+      {
+        "q": "The prime factorization of 48 is 2⁴ × _____.",
+        "ans": "3"
+      },
+      {
+        "q": "The GCF of two consecutive whole numbers is always _____.",
+        "ans": "1"
+      },
+      {
+        "q": "The number 2 is the only _____ prime number.",
+        "ans": "even"
+      },
+      {
+        "q": "The value of the digit 5 in 3,500,000 is _____.",
+        "ans": "500,000"
+      },
+      {
+        "q": "The LCM of 4, 6, and 8 is _____.",
+        "ans": "24"
+      },
+      {
+        "q": "Rounded to the nearest thousand, 6,492 is _____.",
+        "ans": "6,000"
+      },
+      {
+        "q": "The GCF of 100 and 75 is _____.",
+        "ans": "25"
+      },
+      {
+        "q": "The product of any number and 0 is always _____.",
+        "ans": "0"
+      },
+      {
+        "q": "A number is divisible by 4 if its last _____ digits are divisible by 4.",
+        "ans": "two"
+      },
+      {
+        "q": "The prime factorization of 100 is 2² × _____.",
+        "ans": "5²"
+      },
+      {
+        "q": "4! (4 factorial) = _____.",
+        "ans": "24"
+      },
+      {
+        "q": "The LCM of two prime numbers p and q is always _____.",
+        "ans": "p × q"
+      },
+      {
+        "q": "The digit 0 in 30,405 holds the _____ place.",
+        "ans": "thousands"
+      },
+      {
+        "q": "The GCF of 13 and 17 is _____.",
+        "ans": "1"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Find the GCF and LCM of 48 and 60. Show your prime factorization work.",
+        "ans": "GCF = 12, LCM = 240"
+      },
+      {
+        "q": "Write 2,050,307 in expanded form and identify the value of each non-zero digit.",
+        "ans": "2,000,000 + 50,000 + 300 + 7"
+      },
+      {
+        "q": "Is 1,547 divisible by 3? Show how you know using the divisibility rule.",
+        "ans": "1+5+4+7=17, not divisible by 3, so No"
+      },
+      {
+        "q": "List all factors of 84. Then identify which factors are prime.",
+        "ans": "Factors: 1,2,3,4,6,7,12,14,21,28,42,84; Primes: 2,3,7"
+      },
+      {
+        "q": "Find the GCF and LCM of 24, 36, and 54 using prime factorization.",
+        "ans": "GCF=6; LCM=216"
+      },
+      {
+        "q": "A number has the digits 3, 0, 7, 4, 2. Arrange them to make the largest and smallest possible 5-digit numbers. Then find their difference.",
+        "ans": "Largest: 74,320; Smallest: 20,347; Difference: 53,973"
+      },
+      {
+        "q": "Use the distributive property to compute 7 × 98 without a calculator. Show your work.",
+        "ans": "7×(100−2) = 700−14 = 686"
+      },
+      {
+        "q": "Find two different pairs of numbers whose GCF is 12. Explain how you found them.",
+        "ans": "e.g., 12&24; 24&36; GCF(12,24)=12 ✓"
+      },
+      {
+        "q": "Explain why 2 is the only even prime number. Give examples to support your explanation.",
+        "ans": "All other even numbers have 2 as a factor, so they have >2 factors."
+      },
+      {
+        "q": "Write the prime factorization of 360. Use exponent form.",
+        "ans": "2³ × 3² × 5"
+      }
+    ],
+    "wp": [
+      {
+        "q": "A school supply store sells pencils in packs of 12. Mr. Thompson needs 156 pencils. How many full packs must he buy, and how many extra pencils will he have?",
+        "ans": "156 ÷ 12 = 13 packs; 0 extra"
+      },
+      {
+        "q": "Three friends collect baseball cards. Alex has 248, Ben has 315, and Carlos has 187. They share equally. How many cards each? Any left over?",
+        "ans": "750 ÷ 3 = 250 each; 0 left over"
+      },
+      {
+        "q": "A factory produces 4,825 items per day, 5 days a week. About how many per week? (Round to nearest thousand to estimate.)",
+        "ans": "≈5,000 × 5 = 25,000 items"
+      },
+      {
+        "q": "Find two numbers whose GCF is 8 and whose LCM is 96. Verify with prime factorization.",
+        "ans": "e.g. 24 and 32; GCF=8, LCM=96 ✓"
+      },
+      {
+        "q": "A cargo elevator holds 2,800 pounds. Each crate weighs 175 pounds. Max crates per trip? Trips to move 48 crates?",
+        "ans": "16 crates/trip; 3 trips"
+      },
+      {
+        "q": "Seats in an auditorium are arranged in rows of 24. If 1,032 people attend, how many complete rows are filled? How many seats are in the last incomplete row?",
+        "ans": "1032÷24=43 rows; 0 seats in last row (exact fit)"
+      },
+      {
+        "q": "A gardener plants tomatoes every 3rd day and peppers every 4th day. If she plants both today, in how many days will she plant both on the same day again?",
+        "ans": "LCM(3,4)=12 days"
+      },
+      {
+        "q": "Two buses leave a station at the same time. Bus A returns every 18 minutes, Bus B every 24 minutes. How long until they are both back at the station at the same time?",
+        "ans": "LCM(18,24)=72 minutes"
+      },
+      {
+        "q": "A class of 36 students is divided into equal groups for a project. List all possible group sizes. Which group sizes leave no one out?",
+        "ans": "Factors of 36: 1,2,3,4,6,9,12,18,36"
+      },
+      {
+        "q": "A store has 120 red pens and 84 blue pens to arrange in identical gift bags with no leftover. What is the greatest number of bags that can be made? How many of each color per bag?",
+        "ans": "GCF(120,84)=12 bags; 10 red, 7 blue each"
+      },
+      {
+        "q": "A store receives 144 items every 6 days and sells 28 per day. After 18 days, how many items remain if the store started with 200? Show each step.",
+        "ans": "Received: 3×144=432; Sold: 18×28=504; Final: 200+432−504=128 items"
+      },
+      {
+        "q": "The GCF of two numbers is 14 and their LCM is 168. One number is 42. Use GCF×LCM=a×b to find the other number.",
+        "ans": "14×168=42×b; b=56"
+      },
+      {
+        "q": "A school district has 4 elementary schools with 312, 287, 341, and 298 students. If redistributed equally, how many go to each? How many remain?",
+        "ans": "Total=1238; 1238÷4=309 R2; 309 each, 2 remaining"
+      },
+      {
+        "q": "Three bus routes leave at the same time. Route A departs every 15 min, B every 20 min, C every 36 min. How many times in 6 hours do all three depart together (including the start)?",
+        "ans": "LCM(15,20,36)=180 min=3 hrs; at 0,3,6 hrs → 3 times"
+      },
+      {
+        "q": "A number is divisible by 2, 3, 5, and 7. What is the smallest such number? What is the next larger one?",
+        "ans": "LCM(2,3,5,7)=210; next: 420"
+      },
+      {
+        "q": "A hall has lockers 1–120. Lockers divisible by 4 are blue; divisible by 6 are red. How many are both colors? How many are neither?",
+        "ans": "Both (LCM=12): 10; blue only=20; red only=10; neither=80"
+      },
+      {
+        "q": "A number in expanded form: 3×10⁶+0×10⁵+7×10⁴+4×10³+0×10²+9×10+5. Write in standard form. Test divisibility by 3 and 9.",
+        "ans": "3,074,095; digit sum=28; not divisible by 3 or 9"
+      },
+      {
+        "q": "Tom reads 45 pages/hr; Lisa reads 60 pages/hr. They start the same 540-page book simultaneously. How many pages ahead is Lisa when Tom finishes?",
+        "ans": "Tom finishes in 12 hrs; Lisa finishes in 9 hrs — she is already done when Tom finishes"
+      },
+      {
+        "q": "Using digits 1,2,3,4,5 (each once), form the largest 5-digit number divisible by 4 and the smallest divisible by 3.",
+        "ans": "Largest÷4: last two digits div by 4 → 54,312; Smallest÷3: digit sum=15 always → 12,345"
+      },
+      {
+        "q": "A number has exactly 12 factors and its prime factorization uses only 2 and 3. Find all values under 200.",
+        "ans": "Form 2^a×3^b where (a+1)(b+1)=12; options: 2³×3²=72, 2^11>200; answer: 72"
+      }
+    ]
+  },
+  "2": {
+    "title": "Fractions & Mixed Numbers",
+    "mc": [
+      {
+        "q": "Which fraction is equivalent to 3/4?",
+        "opts": [
+          "6/9",
+          "9/12",
+          "8/10",
+          "6/8"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 2⅓ + 1¾?",
+        "opts": [
+          "3 7/12",
+          "4 1/12",
+          "4 7/12",
+          "3 1/12"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which fraction is in simplest form?",
+        "opts": [
+          "6/9",
+          "4/10",
+          "7/11",
+          "8/12"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 4½ − 2¾?",
+        "opts": [
+          "1¾",
+          "2¼",
+          "1¼",
+          "2¾"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is 2/3 × 3/8?",
+        "opts": [
+          "5/11",
+          "6/24",
+          "1/4",
+          "6/11"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 3/4 ÷ 1/2?",
+        "opts": [
+          "3/8",
+          "1½",
+          "6/4",
+          "3/2"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Convert 17/5 to a mixed number.",
+        "opts": [
+          "3⅖",
+          "3⅗",
+          "2⅗",
+          "3 4/5"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which is in order from least to greatest?",
+        "opts": [
+          "1/2, 2/3, 3/4",
+          "3/4, 2/3, 1/2",
+          "2/3, 1/2, 3/4",
+          "1/2, 3/4, 2/3"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is 5/6 − 1/4?",
+        "opts": [
+          "4/2",
+          "7/12",
+          "4/6",
+          "11/12"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 1/3 × 1/3?",
+        "opts": [
+          "2/3",
+          "1/6",
+          "1/9",
+          "2/9"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which fraction is closest to 1?",
+        "opts": [
+          "7/8",
+          "5/6",
+          "9/11",
+          "11/13"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Convert 5¾ to an improper fraction.",
+        "opts": [
+          "20/4",
+          "21/4",
+          "23/4",
+          "25/4"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 8 ÷ 2/3?",
+        "opts": [
+          "16/3",
+          "12",
+          "16",
+          "24"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 3½ × 2⅓?",
+        "opts": [
+          "6⅙",
+          "7⅙",
+          "8 1/6",
+          "8 2/6"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which fraction equals 0.625?",
+        "opts": [
+          "5/8",
+          "6/8",
+          "5/9",
+          "3/5"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is 7/8 − 5/12?",
+        "opts": [
+          "2/4",
+          "11/24",
+          "13/24",
+          "7/24"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 4/5 ÷ 2/5?",
+        "opts": [
+          "8/25",
+          "2",
+          "8/5",
+          "4/10"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which is greater: 5/9 or 7/12?",
+        "opts": [
+          "5/9",
+          "7/12",
+          "They are equal",
+          "Cannot be determined"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 2/7 + 3/7 + 1/7?",
+        "opts": [
+          "5/7",
+          "6/7",
+          "6/21",
+          "5/21"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is the reciprocal of 2½?",
+        "opts": [
+          "5/2",
+          "2/5",
+          "½",
+          "2"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 3/4 of 48?",
+        "opts": [
+          "12",
+          "36",
+          "32",
+          "16"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 1⅔ + 2⅚?",
+        "opts": [
+          "3 3/6",
+          "4½",
+          "3 9/18",
+          "4 4/6"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 6 − 2⅜?",
+        "opts": [
+          "3⅝",
+          "4⅝",
+          "3 5/8",
+          "4 3/8"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which list orders 2/3, 3/5, 7/10 from least to greatest?",
+        "opts": [
+          "3/5, 2/3, 7/10",
+          "2/3, 3/5, 7/10",
+          "7/10, 2/3, 3/5",
+          "3/5, 7/10, 2/3"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is 5/6 × 12?",
+        "opts": [
+          "10",
+          "12",
+          "5/72",
+          "60/6"
+        ],
+        "ans": 0
+      }
+    ],
+    "fib": [
+      {
+        "q": "The reciprocal of 4/7 is _____.",
+        "ans": "7/4"
+      },
+      {
+        "q": "3 5/8 as an improper fraction is _____.",
+        "ans": "29/8"
+      },
+      {
+        "q": "1/3 + 1/6 = _____.",
+        "ans": "1/2"
+      },
+      {
+        "q": "The simplest form of 18/24 is _____.",
+        "ans": "3/4"
+      },
+      {
+        "q": "2/5 × 5/6 = _____.",
+        "ans": "1/3"
+      },
+      {
+        "q": "The reciprocal of 3 is _____.",
+        "ans": "1/3"
+      },
+      {
+        "q": "5/8 + 3/8 = _____.",
+        "ans": "1"
+      },
+      {
+        "q": "7/10 − 2/5 = _____.",
+        "ans": "3/10"
+      },
+      {
+        "q": "2/3 ÷ 4 = _____.",
+        "ans": "1/6"
+      },
+      {
+        "q": "The simplest form of 24/36 is _____.",
+        "ans": "2/3"
+      },
+      {
+        "q": "4 2/3 as an improper fraction is _____.",
+        "ans": "14/3"
+      },
+      {
+        "q": "1/2 × 2/3 × 3/4 = _____.",
+        "ans": "1/4"
+      },
+      {
+        "q": "9/4 as a mixed number is _____.",
+        "ans": "2 1/4"
+      },
+      {
+        "q": "To divide fractions, multiply by the _____.",
+        "ans": "reciprocal"
+      },
+      {
+        "q": "The LCD of 1/3 and 1/4 is _____.",
+        "ans": "12"
+      },
+      {
+        "q": "3/4 ÷ 3/8 = _____.",
+        "ans": "2"
+      },
+      {
+        "q": "The simplest form of 35/49 is _____.",
+        "ans": "5/7"
+      },
+      {
+        "q": "5/6 − 1/3 = _____.",
+        "ans": "1/2"
+      },
+      {
+        "q": "A fraction where the numerator equals the denominator always equals _____.",
+        "ans": "1"
+      },
+      {
+        "q": "2 3/4 + 1 1/2 = _____.",
+        "ans": "4 1/4"
+      },
+      {
+        "q": "The LCD of 1/6 and 1/8 is _____.",
+        "ans": "24"
+      },
+      {
+        "q": "3/5 × 10/9 = _____.",
+        "ans": "2/3"
+      },
+      {
+        "q": "7/8 ÷ 7/8 = _____.",
+        "ans": "1"
+      },
+      {
+        "q": "Mixed number 6 1/4 as an improper fraction is _____.",
+        "ans": "25/4"
+      },
+      {
+        "q": "5 − 2 7/8 = _____.",
+        "ans": "2 1/8"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Sarah ate 2⅓ pizzas Friday and 1⅝ Saturday. How much total? Show all work.",
+        "ans": "3 23/24 pizzas"
+      },
+      {
+        "q": "Divide 3¾ ÷ 1½. Show each step including converting to improper fractions.",
+        "ans": "15/4 ÷ 3/2 = 15/4 × 2/3 = 5/2 = 2½"
+      },
+      {
+        "q": "Order 5/6, 7/9, and 11/18 from least to greatest. Show your common denominator work.",
+        "ans": "LCD=18; 15/18, 14/18, 11/18 → 11/18 < 7/9 < 5/6"
+      },
+      {
+        "q": "Compute 3¼ × 2⅔. Show the improper fraction conversion and multiplication.",
+        "ans": "13/4 × 8/3 = 104/12 = 8 2/3"
+      },
+      {
+        "q": "A recipe calls for ⅔ cup of sugar per batch. How much sugar is needed for 4½ batches?",
+        "ans": "2/3 × 9/2 = 18/6 = 3 cups"
+      },
+      {
+        "q": "Explain why 2/3 ÷ 1/3 = 2, not 2/9. Use a diagram or explanation.",
+        "ans": "Division asks how many 1/3s fit in 2/3; 2/3 × 3/1 = 2"
+      },
+      {
+        "q": "Find 5 fractions equivalent to 3/7. Show what you multiplied numerator and denominator by.",
+        "ans": "6/14, 9/21, 12/28, 15/35, 18/42"
+      },
+      {
+        "q": "Sam has 5½ yards of ribbon. He cuts pieces of ¾ yard each. How many full pieces can he cut? How much ribbon is left?",
+        "ans": "5½ ÷ ¾ = 22/4 × 4/3 = 88/12 = 7 r4/12; 7 pieces, ⅓ yard left"
+      },
+      {
+        "q": "Add: 2 5/6 + 1 3/4 + 3 1/3. Show all steps.",
+        "ans": "LCD=12; 2 10/12 + 1 9/12 + 3 4/12 = 6 23/12 = 7 11/12"
+      },
+      {
+        "q": "Show two different methods to simplify 48/72 to lowest terms.",
+        "ans": "Method 1: GCF(48,72)=24; 48/72=2/3. Method 2: divide stepwise by 2 then 3 then 4."
+      }
+    ],
+    "wp": [
+      {
+        "q": "A recipe needs 2⅔ cups of flour. Maria makes 1½ times the recipe. How much flour? Show all steps.",
+        "ans": "2⅔ × 3/2 = 4 cups"
+      },
+      {
+        "q": "Jake ran 3¾ miles Monday, 2⅝ Wednesday, and 4⅓ Friday. Total miles as a mixed number?",
+        "ans": "10 19/24 miles"
+      },
+      {
+        "q": "A board is 8½ ft. A carpenter cuts off 2¾ ft. Remaining piece cut into 3 equal parts. How long each?",
+        "ans": "5¾ ft left; 1 11/12 ft each"
+      },
+      {
+        "q": "It takes ¾ hour to mow one lawn. How many lawns can be mowed in 4½ hours?",
+        "ans": "4½ ÷ ¾ = 6 lawns"
+      },
+      {
+        "q": "A class of 30 voted on a field trip. ⅗ voted yes. How many yes? How many no?",
+        "ans": "18 yes; 12 no"
+      },
+      {
+        "q": "A hiker walked 6⅔ miles Saturday and 4¾ miles Sunday. How much farther on Saturday than Sunday?",
+        "ans": "6⅔ − 4¾ = 1 11/12 miles farther"
+      },
+      {
+        "q": "A tank holds 15 gallons. It is ⅗ full. How many gallons are in the tank? How many to fill it?",
+        "ans": "9 gallons in; 6 gallons to fill"
+      },
+      {
+        "q": "If a car travels 2/5 of a 350-mile trip in the morning, how many miles remain?",
+        "ans": "2/5 × 350 = 140 miles done; 210 remain"
+      },
+      {
+        "q": "A bolt is 3⅛ inches long. A nut is ⅞ inch tall. What is the combined length of the bolt and nut?",
+        "ans": "3⅛ + ⅞ = 4 inches"
+      },
+      {
+        "q": "Maria earns $12 per hour. She works 6¼ hours. How much does she earn? Show fraction multiplication.",
+        "ans": "12 × 25/4 = 300/4 = $75"
+      },
+      {
+        "q": "A contractor joins ropes of 5⅔ m, 3¾ m, and 4 5/12 m. What is the total? If she cuts off 2 1/8 m, how much remains?",
+        "ans": "Total=14 7/12 m; remaining=12 11/24 m"
+      },
+      {
+        "q": "A tank is 7/8 full (56-gal capacity). Water drains at 1¾ gal/min. How long until it is 1/4 full?",
+        "ans": "Current=49 gal; target=14 gal; drain=35 gal; 35÷(7/4)=20 min"
+      },
+      {
+        "q": "Find three fractions between 2/7 and 3/7 with different denominators. Verify each.",
+        "ans": "e.g. 5/17, 1/3, 9/28; each > 2/7 and < 3/7"
+      },
+      {
+        "q": "A recipe uses 2/3 cup oil, ¾ cup sugar, 1 5/8 cup flour per batch. A chef makes 2⅔ batches. Find the exact amount of each ingredient.",
+        "ans": "Oil: 16/9=1 7/9 cups; Sugar: 2 cups; Flour: 13/3=4 1/3 cups"
+      },
+      {
+        "q": "Pipe A fills a tank in 3 hours, Pipe B in 4 hours. Together, how long to fill it? Express as a fraction.",
+        "ans": "Rate=1/3+1/4=7/12 per hr; time=12/7=1 5/7 hours"
+      },
+      {
+        "q": "A board is 12⅜ ft long. Pieces of 1 5/16 ft each are cut. How many complete pieces? What fraction of a piece remains?",
+        "ans": "12⅜÷1 5/16=99/8÷21/16=198/21=9 3/7; 9 pieces; 3/7 of a piece left"
+      },
+      {
+        "q": "John earns $14.50/hr for regular hours (40/week) and 1.5× for overtime. He works 47.75 hours. Find his total gross pay.",
+        "ans": "Regular: 40×$14.50=$580; OT: 7.75×$21.75≈$168.56; Total≈$748.56"
+      },
+      {
+        "q": "In a school, 4/9 of students play sports; of those, 3/7 also play an instrument. What fraction play both? If 252 students total, how many play both?",
+        "ans": "4/9×3/7=4/21; 252×4/21=48 students"
+      },
+      {
+        "q": "A cyclist travels 2⅓ miles day 1, then each day travels 1¼ times the previous day. How far on day 3? What is the three-day total?",
+        "ans": "Day2=35/12; Day3=175/48; Total=427/48≈8 43/48 miles"
+      },
+      {
+        "q": "Sarah has 5/8 of a pizza. She eats 2/3 of what she has. What fraction of the whole pizza did she eat? What fraction is left?",
+        "ans": "Ate: 5/8×2/3=10/24=5/12; Left: 5/8−5/12=15/24−10/24=5/24"
+      }
+    ]
+  },
+  "3": {
+    "title": "Decimals & Percents",
+    "mc": [
+      {
+        "q": "What is 3.47 + 12.8?",
+        "opts": [
+          "15.17",
+          "16.27",
+          "16.17",
+          "15.27"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 0.6 × 0.4?",
+        "opts": [
+          "0.24",
+          "2.4",
+          "0.024",
+          "24"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Convert 0.35 to a percent.",
+        "opts": [
+          "3.5%",
+          "35%",
+          "350%",
+          "0.35%"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 25% of 84?",
+        "opts": [
+          "21",
+          "18",
+          "25",
+          "29"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which decimal equals 3/8?",
+        "opts": [
+          "0.38",
+          "0.375",
+          "0.385",
+          "0.3875"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 14.76 ÷ 0.4?",
+        "opts": [
+          "3.69",
+          "36.9",
+          "369",
+          "3690"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A shirt costs $40. It is 15% off. What is the discount?",
+        "opts": [
+          "$4",
+          "$6",
+          "$8",
+          "$15"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Order from least: 0.5, 0.05, 0.505",
+        "opts": [
+          "0.05, 0.5, 0.505",
+          "0.5, 0.505, 0.05",
+          "0.05, 0.505, 0.5",
+          "0.505, 0.5, 0.05"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is 2.3 × 1.4?",
+        "opts": [
+          "3.22",
+          "3.42",
+          "2.42",
+          "3.02"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which is 40% as a fraction in lowest terms?",
+        "opts": [
+          "4/10",
+          "2/5",
+          "8/20",
+          "40/100"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 0.8 ÷ 0.02?",
+        "opts": [
+          "0.4",
+          "4",
+          "40",
+          "400"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 15% of 200?",
+        "opts": [
+          "15",
+          "25",
+          "30",
+          "40"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Convert 7/8 to a decimal.",
+        "opts": [
+          "0.785",
+          "0.875",
+          "0.87",
+          "0.875"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 6.05 − 2.9?",
+        "opts": [
+          "3.15",
+          "4.05",
+          "3.05",
+          "4.15"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which is 0.008 as a percent?",
+        "opts": [
+          "8%",
+          "0.8%",
+          "0.08%",
+          "80%"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A $75 item is marked up 20%. What is the new price?",
+        "opts": [
+          "$85",
+          "$90",
+          "$95",
+          "$80"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 100 × 0.037?",
+        "opts": [
+          "0.37",
+          "3.7",
+          "37",
+          "370"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Convert 62.5% to a decimal.",
+        "opts": [
+          "6.25",
+          "0.625",
+          "0.0625",
+          "62.5"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 4.5²?",
+        "opts": [
+          "9",
+          "18",
+          "20.25",
+          "20"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 0.3 + 0.04 + 0.009?",
+        "opts": [
+          "0.349",
+          "0.34",
+          "0.304",
+          "0.313"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "A test score of 54 out of 60 is what percent?",
+        "opts": [
+          "80%",
+          "85%",
+          "90%",
+          "95%"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which decimal is between 0.4 and 0.5?",
+        "opts": [
+          "0.39",
+          "0.45",
+          "0.51",
+          "0.035"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 1.5 × 1.5?",
+        "opts": [
+          "2.25",
+          "3",
+          "2.5",
+          "1.55"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is 50% of 50% of 200?",
+        "opts": [
+          "25",
+          "50",
+          "100",
+          "75"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Convert 3/20 to a percent.",
+        "opts": [
+          "3%",
+          "10%",
+          "15%",
+          "20%"
+        ],
+        "ans": 2
+      }
+    ],
+    "fib": [
+      {
+        "q": "65% written as a decimal is _____.",
+        "ans": "0.65"
+      },
+      {
+        "q": "7/20 written as a percent is _____.",
+        "ans": "35%"
+      },
+      {
+        "q": "4.8 × 100 = _____.",
+        "ans": "480"
+      },
+      {
+        "q": "0.7 as a fraction in lowest terms is _____.",
+        "ans": "7/10"
+      },
+      {
+        "q": "30% of 90 = _____.",
+        "ans": "27"
+      },
+      {
+        "q": "0.025 as a percent is _____.",
+        "ans": "2.5%"
+      },
+      {
+        "q": "1/8 as a decimal is _____.",
+        "ans": "0.125"
+      },
+      {
+        "q": "45% of 60 = _____.",
+        "ans": "27"
+      },
+      {
+        "q": "To multiply a decimal by 1,000, move the decimal point _____ places right.",
+        "ans": "3"
+      },
+      {
+        "q": "0.6 as a fraction in lowest terms is _____.",
+        "ans": "3/5"
+      },
+      {
+        "q": "120% of 50 = _____.",
+        "ans": "60"
+      },
+      {
+        "q": "0.002 + 0.02 + 0.2 = _____.",
+        "ans": "0.222"
+      },
+      {
+        "q": "33⅓% as a fraction is _____.",
+        "ans": "1/3"
+      },
+      {
+        "q": "7.3 × 0.01 = _____.",
+        "ans": "0.073"
+      },
+      {
+        "q": "Percent means per _____.",
+        "ans": "hundred (100)"
+      },
+      {
+        "q": "A price increased from $40 to $50. The percent increase is _____.",
+        "ans": "25%"
+      },
+      {
+        "q": "0.875 as a fraction in lowest terms is _____.",
+        "ans": "7/8"
+      },
+      {
+        "q": "70% of what number is 42? The number is _____.",
+        "ans": "60"
+      },
+      {
+        "q": "4.07 − 0.9 = _____.",
+        "ans": "3.17"
+      },
+      {
+        "q": "5/4 as a percent is _____.",
+        "ans": "125%"
+      },
+      {
+        "q": "0.16 ÷ 0.4 = _____.",
+        "ans": "0.4"
+      },
+      {
+        "q": "66⅔% as a fraction is _____.",
+        "ans": "2/3"
+      },
+      {
+        "q": "What is 8% of 250? _____.",
+        "ans": "20"
+      },
+      {
+        "q": "3.6 ÷ 100 = _____.",
+        "ans": "0.036"
+      },
+      {
+        "q": "A 15% tip on a $40 meal is _____.",
+        "ans": "$6"
+      }
+    ],
+    "syw": [
+      {
+        "q": "A bike costs $125. Sales tax is 8%. What is the total cost? Show work.",
+        "ans": "$125 × 0.08 = $10; Total = $135"
+      },
+      {
+        "q": "A student scored 38 out of 50. What is their percentage score?",
+        "ans": "38/50 = 0.76 = 76%"
+      },
+      {
+        "q": "A jacket is $84.50, 30% off. Sales tax 6%. Find the final price step-by-step.",
+        "ans": "Discount=$25.35; Sale=$59.15; Tax=$3.55; Final=$62.70"
+      },
+      {
+        "q": "Elena runs 1.85, 2.4, and 3.075 km on three days. Total? How far short of her 8 km goal?",
+        "ans": "7.325 km; 0.675 km short"
+      },
+      {
+        "q": "A car uses 14.5 gallons at $3.89/gallon. What is the total cost?",
+        "ans": "$56.41"
+      },
+      {
+        "q": "Tom scored 76%, 84%, 91%, and 79%. What score is needed 5th quiz to average 83%?",
+        "ans": "83×5 − 330 = 85"
+      },
+      {
+        "q": "A store buys a shirt for $18 and sells for $27. What is the percent markup?",
+        "ans": "(27−18)/18 × 100 = 50%"
+      },
+      {
+        "q": "Convert 0.4545... to a fraction. Show your algebra.",
+        "ans": "x=0.4545; 100x=45.45; 99x=45; x=45/99=5/11"
+      },
+      {
+        "q": "A price drops from $80 to $60. Find the percent decrease.",
+        "ans": "(80−60)/80 = 20/80 = 25% decrease"
+      },
+      {
+        "q": "Find 15% of 340 three different ways (fraction, decimal, proportion). Show all.",
+        "ans": "0.15×340=$51; 15/100×340=$51; 15/100=x/340 → x=$51"
+      }
+    ],
+    "wp": [
+      {
+        "q": "A jacket costs $84.50, 30% off. Sales tax 6%. What is the final price?",
+        "ans": "Sale=$59.15; Tax=$3.55; Final=$62.70"
+      },
+      {
+        "q": "Elena runs 1.85, 2.4, 3.075 km. Total? How short of 8 km goal?",
+        "ans": "7.325 km; 0.675 km short"
+      },
+      {
+        "q": "Gas tank: 14.5 gallons at $3.89/gallon. Cost to fill from empty?",
+        "ans": "$56.41"
+      },
+      {
+        "q": "Tom's test scores: 76%, 84%, 91%, 79%. Score needed on 5th to average 83%?",
+        "ans": "85"
+      },
+      {
+        "q": "Store buys shirt for $18, sells for $27. Percent markup?",
+        "ans": "50%"
+      },
+      {
+        "q": "An electronics store sells a laptop for $649. It is on sale for 15% off. What is the sale price, including 7% tax?",
+        "ans": "Sale=$551.65; Tax≈$38.62; Total≈$590.27"
+      },
+      {
+        "q": "A population of 24,000 increases by 3.5% per year. What is the new population after 1 year?",
+        "ans": "24,000 × 1.035 = 24,840"
+      },
+      {
+        "q": "A runner finishes a race in 48.75 seconds. A competitor finishes in 52.3 seconds. By how many seconds did the first runner win?",
+        "ans": "52.3 − 48.75 = 3.55 seconds"
+      },
+      {
+        "q": "Maria buys 3.75 pounds of apples at $1.60/lb and 2.5 pounds of oranges at $2.20/lb. Total cost?",
+        "ans": "3.75×1.60 + 2.5×2.20 = $6.00 + $5.50 = $11.50"
+      },
+      {
+        "q": "A worker earns $13.75/hour and works 36.5 hours. What are his gross earnings? If 22% is withheld for taxes, what is his take-home pay?",
+        "ans": "Gross=$501.875; Tax=$110.41; Take-home=$391.46"
+      },
+      {
+        "q": "A car depreciates 18% per year. Purchased for $24,500. What is its value after 2 years? Express the total loss as a percent of the original price.",
+        "ans": "Yr1: $20,090; Yr2: $16,473.80; Loss=$8,026.20≈32.76%"
+      },
+      {
+        "q": "A store's revenue grew 3.5% per month for 2 months starting from $128,400. What was the revenue in month 3?",
+        "ans": "Month2: $132,894; Month3: $137,545.29"
+      },
+      {
+        "q": "A worker earns $18.45/hr for 40 hrs/week and 1.5× for overtime. She works 47.5 hours. Find gross pay and net pay (22.5% withheld).",
+        "ans": "Gross=$945.56; Net≈$732.81"
+      },
+      {
+        "q": "An investment of $5,000 earns 4.8% simple interest. Another earns 4.5% compounded annually. After 3 years, which is worth more and by how much?",
+        "ans": "Simple total=$5,720; Compound total≈$5,705.85; Simple is more by $14.15"
+      },
+      {
+        "q": "A runner's pace is 8.25 min/mile. She runs 13.1 miles. What is her total time in hours, minutes, and seconds?",
+        "ans": "13.1×8.25=108.075 min=1 hr 48 min 4.5 sec"
+      },
+      {
+        "q": "After a 40% markup and a 20%-off sale, an item sells for $50.40. What was the original wholesale price?",
+        "ans": "Wholesale×1.4×0.8=$50.40; wholesale×1.12=$50.40; wholesale=$45"
+      },
+      {
+        "q": "During a sale: Item A is $129.99 reduced 35%, Item B is $149.99 reduced 40%, Item C is $89.99 raised by $18. Rank from least to greatest final price.",
+        "ans": "A=$84.49; B=$89.99; C=$107.99; order: A<B<C"
+      },
+      {
+        "q": "A recipe for 24 cookies uses 0.375 kg of chocolate. Grams per cookie? For 10,000 cookies, how many kg?",
+        "ans": "15.625 g/cookie; 10,000 cookies = 156.25 kg"
+      },
+      {
+        "q": "A bank charges 0.045% daily interest on a $840 balance left unpaid for 30 days. What is the total interest? What is the equivalent annual rate?",
+        "ans": "Daily: $0.378; 30 days: $11.34; Annual rate≈16.425%"
+      },
+      {
+        "q": "A store applies a 25% discount and then an additional 10% loyalty discount. Is the combined discount the same as 35% off? Find the actual combined percent off.",
+        "ans": "Combined: 1−(0.75×0.90)=1−0.675=32.5% off; not equal to 35%"
+      }
+    ]
+  },
+  "4": {
+    "title": "Geometry Basics",
+    "mc": [
+      {
+        "q": "How many degrees in a right angle?",
+        "opts": [
+          "45°",
+          "90°",
+          "180°",
+          "360°"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A triangle with all sides equal is:",
+        "opts": [
+          "Scalene",
+          "Isosceles",
+          "Equilateral",
+          "Right"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Two lines that never intersect are:",
+        "opts": [
+          "Perpendicular",
+          "Parallel",
+          "Intersecting",
+          "Skew"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Sum of interior angles of a triangle?",
+        "opts": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A polygon with 8 sides is a(n):",
+        "opts": [
+          "Hexagon",
+          "Heptagon",
+          "Octagon",
+          "Nonagon"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "An angle between 90° and 180° is:",
+        "opts": [
+          "Acute",
+          "Right",
+          "Obtuse",
+          "Straight"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "A quadrilateral with exactly one pair of parallel sides is a:",
+        "opts": [
+          "Rectangle",
+          "Rhombus",
+          "Trapezoid",
+          "Parallelogram"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Lines intersecting at right angles are:",
+        "opts": [
+          "Parallel",
+          "Collinear",
+          "Perpendicular",
+          "Coincident"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the sum of interior angles of a hexagon?",
+        "opts": [
+          "540°",
+          "630°",
+          "720°",
+          "810°"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "A triangle with no equal sides is:",
+        "opts": [
+          "Equilateral",
+          "Isosceles",
+          "Scalene",
+          "Right"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What type of angle is 135°?",
+        "opts": [
+          "Acute",
+          "Right",
+          "Obtuse",
+          "Straight"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Two angles that add to 180° are:",
+        "opts": [
+          "Complementary",
+          "Supplementary",
+          "Vertical",
+          "Adjacent"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A quadrilateral with all sides equal and no right angles is a:",
+        "opts": [
+          "Rectangle",
+          "Square",
+          "Rhombus",
+          "Trapezoid"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the sum of interior angles of a pentagon?",
+        "opts": [
+          "360°",
+          "450°",
+          "540°",
+          "630°"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Vertical angles are always:",
+        "opts": [
+          "Supplementary",
+          "Complementary",
+          "Congruent",
+          "Adjacent"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "A regular polygon has:",
+        "opts": [
+          "All sides equal",
+          "All angles equal",
+          "Both sides and angles equal",
+          "Neither"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "The exterior angle of a triangle equals:",
+        "opts": [
+          "The sum of the two remote interior angles",
+          "90°",
+          "The adjacent interior angle",
+          "180°"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "How many lines of symmetry does a square have?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Two supplementary angles are in ratio 2:3. The larger angle is:",
+        "opts": [
+          "72°",
+          "108°",
+          "120°",
+          "135°"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A point where two sides of a polygon meet is called a:",
+        "opts": [
+          "Side",
+          "Edge",
+          "Vertex",
+          "Face"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "An angle less than 90° is:",
+        "opts": [
+          "Obtuse",
+          "Right",
+          "Straight",
+          "Acute"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "What is the sum of interior angles of an octagon?",
+        "opts": [
+          "720°",
+          "900°",
+          "1,080°",
+          "1,260°"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "A diagonal of a rectangle divides it into two:",
+        "opts": [
+          "Squares",
+          "Congruent right triangles",
+          "Equilateral triangles",
+          "Rectangles"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which is NOT a property of a parallelogram?",
+        "opts": [
+          "Opposite sides parallel",
+          "All angles 90°",
+          "Opposite sides equal",
+          "Diagonals bisect each other"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A ray has:",
+        "opts": [
+          "Two endpoints",
+          "One endpoint",
+          "No endpoints",
+          "A fixed length"
+        ],
+        "ans": 1
+      }
+    ],
+    "fib": [
+      {
+        "q": "An angle of exactly 180° is called a _____ angle.",
+        "ans": "straight"
+      },
+      {
+        "q": "A quadrilateral with four right angles and four equal sides is a _____.",
+        "ans": "square"
+      },
+      {
+        "q": "The sum of interior angles of a quadrilateral is _____ degrees.",
+        "ans": "360"
+      },
+      {
+        "q": "Two angles that add to 90° are _____ angles.",
+        "ans": "complementary"
+      },
+      {
+        "q": "A triangle with one angle greater than 90° is an _____ triangle.",
+        "ans": "obtuse"
+      },
+      {
+        "q": "The sum of interior angles of a polygon with n sides is _____ × 180°.",
+        "ans": "(n−2)"
+      },
+      {
+        "q": "Two angles formed by intersecting lines that are across from each other are called _____ angles.",
+        "ans": "vertical"
+      },
+      {
+        "q": "A triangle with exactly two equal sides is called _____.",
+        "ans": "isosceles"
+      },
+      {
+        "q": "The interior angle of a regular hexagon is _____ degrees.",
+        "ans": "120"
+      },
+      {
+        "q": "Two parallel lines cut by a transversal form _____ pairs of alternate interior angles.",
+        "ans": "2"
+      },
+      {
+        "q": "A polygon with 5 sides is called a _____.",
+        "ans": "pentagon"
+      },
+      {
+        "q": "Each interior angle of a regular octagon is _____ degrees.",
+        "ans": "135"
+      },
+      {
+        "q": "A line segment connecting two non-adjacent vertices of a polygon is called a _____.",
+        "ans": "diagonal"
+      },
+      {
+        "q": "The exterior angle of a triangle equals the sum of the two _____ interior angles.",
+        "ans": "non-adjacent (remote)"
+      },
+      {
+        "q": "A quadrilateral with two pairs of parallel sides is a _____.",
+        "ans": "parallelogram"
+      },
+      {
+        "q": "The point where two rays share an endpoint is called a _____.",
+        "ans": "vertex"
+      },
+      {
+        "q": "Co-interior (same-side interior) angles formed by a transversal are _____.",
+        "ans": "supplementary"
+      },
+      {
+        "q": "A polygon with all sides and angles equal is called _____.",
+        "ans": "regular"
+      },
+      {
+        "q": "The number of diagonals in a quadrilateral is _____.",
+        "ans": "2"
+      },
+      {
+        "q": "Alternate exterior angles are always _____.",
+        "ans": "congruent (equal)"
+      },
+      {
+        "q": "An angle formed outside a polygon when one side is extended is called an _____ angle.",
+        "ans": "exterior"
+      },
+      {
+        "q": "Each interior angle of a regular triangle (equilateral) is _____ degrees.",
+        "ans": "60"
+      },
+      {
+        "q": "Two lines in the same plane that do not intersect are _____ lines.",
+        "ans": "parallel"
+      },
+      {
+        "q": "The sum of exterior angles of any convex polygon is _____ degrees.",
+        "ans": "360"
+      },
+      {
+        "q": "A right triangle must have exactly _____ right angle(s).",
+        "ans": "1"
+      }
+    ],
+    "syw": [
+      {
+        "q": "In triangle ABC, A=42°, B=78°. Find angle C. Explain your reasoning.",
+        "ans": "180−42−78=60°"
+      },
+      {
+        "q": "Two supplementary angles are in ratio 2:3. Find both angles.",
+        "ans": "72° and 108°"
+      },
+      {
+        "q": "Find all the interior angles of a regular pentagon. Show your work.",
+        "ans": "(5−2)×180=540; 540÷5=108° each"
+      },
+      {
+        "q": "Two parallel lines are cut by a transversal. One angle is 65°. Find all 8 angles formed. Label each type.",
+        "ans": "4 angles of 65°, 4 angles of 115°; identify corresponding, alternate, co-interior"
+      },
+      {
+        "q": "An exterior angle of a triangle is 110°. One non-adjacent interior angle is 48°. Find all three interior angles.",
+        "ans": "48°, 62°, 70°"
+      },
+      {
+        "q": "The angles of a quadrilateral are in ratio 2:3:4:6. Find each angle.",
+        "ans": "2x+3x+4x+6x=360; x=24; angles: 48°,72°,96°,144°"
+      },
+      {
+        "q": "Prove that the sum of interior angles of a pentagon is 540° by drawing diagonals from one vertex.",
+        "ans": "3 triangles formed; 3×180°=540°"
+      },
+      {
+        "q": "A rhombus has one angle of 70°. Find all four angles. Explain why.",
+        "ans": "70°,110°,70°,110°; opposite angles equal, adjacent supplementary"
+      },
+      {
+        "q": "In the diagram, lines p and q are parallel. A transversal creates an angle of 73°. Identify and find all related angles.",
+        "ans": "Corresponding: 73°; Alternate: 73°; Co-interior: 107°; Vertically opposite: 73°"
+      },
+      {
+        "q": "A triangle has angles in ratio 1:2:3. Identify the type of triangle and find all angles.",
+        "ans": "30°,60°,90°; right triangle (scalene)"
+      }
+    ],
+    "wp": [
+      {
+        "q": "A triangular garden has angles in ratio 2:3:4. Find each angle. What type of triangle?",
+        "ans": "40°,60°,80°; acute scalene"
+      },
+      {
+        "q": "Two supplementary angles differ by 34°. Find both angles.",
+        "ans": "73° and 107°"
+      },
+      {
+        "q": "Carpenter's legs form a right angle: 9 ft and 12 ft. How long is the hypotenuse?",
+        "ans": "√(81+144)=15 ft"
+      },
+      {
+        "q": "A park is a regular hexagon. Sum of interior angles? Confirm one angle = 120°.",
+        "ans": "(6−2)×180=720°; 720÷6=120° ✓"
+      },
+      {
+        "q": "An angle is 3 times its complement. Find both angles.",
+        "ans": "x+3x=90; 22.5° and 67.5°"
+      },
+      {
+        "q": "A triangular roof truss has angles 90°, 35°, and ?°. Find the unknown angle. What type of triangle?",
+        "ans": "55°; right scalene triangle"
+      },
+      {
+        "q": "A tile is a regular octagon. What is each interior angle? If two tiles share an edge, what angle do they form together?",
+        "ans": "135°; 270°"
+      },
+      {
+        "q": "A rectangular window has a diagonal brace. The diagonal makes a 38° angle with the bottom. What angle does it make with the side?",
+        "ans": "90°−38°=52°"
+      },
+      {
+        "q": "A city block is a parallelogram. One angle is 65°. Find all four angles.",
+        "ans": "65°,115°,65°,115°"
+      },
+      {
+        "q": "Two streets intersect. One angle formed is 47°. Find the other three angles at the intersection.",
+        "ans": "47°, 133°, 133°, 47° (vertical and supplementary pairs)"
+      },
+      {
+        "q": "A quadrilateral has angles in ratio 2:3:4:6. Find each angle. Classify the quadrilateral if possible.",
+        "ans": "15 parts→24°; angles: 48°,72°,96°,144°; no special classification"
+      },
+      {
+        "q": "A regular polygon has each interior angle equal to 150°. How many sides? What is each exterior angle?",
+        "ans": "(n−2)×180/n=150; n=12 (dodecagon); exterior angle=30°"
+      },
+      {
+        "q": "A pentagon has angles in ratio 2:3:3:4:5. Find each angle and their sum. Verify it matches the formula.",
+        "ans": "Sum=540; 17 parts→31.76 each→63.5,95.3,95.3,127.1,158.8; sum≈540 ✓"
+      },
+      {
+        "q": "An isosceles triangle has vertex angle 40°. Find the base angles and perimeter if equal sides are 15 cm and base ≈ 10.3 cm.",
+        "ans": "Base angles=70° each; Perimeter≈40.3 cm"
+      },
+      {
+        "q": "In a circle, two chords intersect inside. The intercepted arcs are 84° and 110°. Find the angle formed at the intersection.",
+        "ans": "Angle=(84+110)/2=97°"
+      },
+      {
+        "q": "A polygon's interior angles sum to 1,440°. How many sides? What is each interior angle if it is regular?",
+        "ans": "(n−2)×180=1440; n=10; each angle=144°"
+      },
+      {
+        "q": "In triangle ABC, the exterior angle at C is 112°. Angle A is 4° more than angle B. Find all three interior angles.",
+        "ans": "A+B=112°; A=B+4; 2B+4=112; B=54°; A=58°; C=68°"
+      },
+      {
+        "q": "Two parallel lines are cut by a transversal. One angle formed is (3x+15)° and its alternate interior angle is (5x−9)°. Find x and all 8 angles.",
+        "ans": "3x+15=5x−9; x=12; angles: 51° and 129°"
+      },
+      {
+        "q": "A rhombus has a perimeter of 52 cm and one diagonal of 24 cm. Find the other diagonal and the area.",
+        "ans": "Side=13; half-diag=12; other half=√(169−144)=5; diag=10 cm; Area=½×24×10=120 cm²"
+      },
+      {
+        "q": "A triangle has sides 7, 24, and 25 cm. Verify it is a right triangle. Find the area and all three angles (use angle ratios).",
+        "ans": "7²+24²=49+576=625=25² ✓; Area=½×7×24=84 cm²; angles≈16.3°, 73.7°, 90°"
+      }
+    ]
+  },
+  "5": {
+    "title": "Ratio & Proportion",
+    "mc": [
+      {
+        "q": "A recipe calls for 2 cups flour per 3 cups oats. Flour needed for 12 cups oats?",
+        "opts": [
+          "6",
+          "8",
+          "4",
+          "9"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which ratio equals 3:5?",
+        "opts": [
+          "6:8",
+          "9:15",
+          "12:16",
+          "4:6"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "5 notebooks cost $7.50. Cost of 8?",
+        "opts": [
+          "$10.00",
+          "$11.50",
+          "$12.00",
+          "$12.50"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "A car travels 180 miles in 3 hours. Unit rate?",
+        "opts": [
+          "60 mph",
+          "55 mph",
+          "65 mph",
+          "70 mph"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: 4/6 = x/18",
+        "opts": [
+          "8",
+          "12",
+          "10",
+          "9"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Scale 1 in = 20 ft. Room is 3.5 in on drawing. Actual length?",
+        "opts": [
+          "60 ft",
+          "65 ft",
+          "70 ft",
+          "75 ft"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "3 apples for $1.20. Price per apple?",
+        "opts": [
+          "$0.30",
+          "$0.35",
+          "$0.40",
+          "$0.45"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Class of 30: 18 girls. Ratio boys to girls?",
+        "opts": [
+          "2:3",
+          "3:5",
+          "2:5",
+          "3:2"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: 7/x = 14/6",
+        "opts": [
+          "x=2",
+          "x=3",
+          "x=4",
+          "x=12"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which is NOT a unit rate?",
+        "opts": [
+          "60 mph",
+          "$2.50 per pound",
+          "3 to 4",
+          "15 mpg"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "If y varies directly with x and y=12 when x=4, find y when x=7.",
+        "opts": [
+          "3",
+          "21",
+          "28",
+          "16"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A map scale is 2 cm: 50 km. Two cities are 7 cm apart. Actual distance?",
+        "opts": [
+          "100 km",
+          "150 km",
+          "175 km",
+          "200 km"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Solve: 15/20 = n/8",
+        "opts": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "A car goes 336 miles on 12 gallons. How many gallons for 448 miles?",
+        "opts": [
+          "14",
+          "15",
+          "16",
+          "18"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which proportion is equivalent to 3/5 = 6/10?",
+        "opts": [
+          "9/20",
+          "9/15",
+          "12/15",
+          "12/25"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A ratio of 4:7 is equivalent to:",
+        "opts": [
+          "8:11",
+          "12:21",
+          "16:24",
+          "20:28"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "If 8 workers finish a job in 6 days, how many days for 12 workers?",
+        "opts": [
+          "4",
+          "9",
+          "3",
+          "5"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: x/9 = 5/3",
+        "opts": [
+          "x=5",
+          "x=12",
+          "x=15",
+          "x=45"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "The ratio 0.4:0.6 simplifies to:",
+        "opts": [
+          "2:3",
+          "4:6",
+          "1:2",
+          "3:2"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "If 3:5 = 12:x, then x =",
+        "opts": [
+          "15",
+          "18",
+          "20",
+          "25"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "A car travels 65 mph. How far in 2.5 hours?",
+        "opts": [
+          "130 mi",
+          "160 mi",
+          "162.5 mi",
+          "165 mi"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "In a mixture 2 parts red : 3 parts blue, how many parts red in 25 total?",
+        "opts": [
+          "10",
+          "12",
+          "15",
+          "5"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: 0.3/0.9 = x/6",
+        "opts": [
+          "x=1",
+          "x=2",
+          "x=3",
+          "x=18"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A triangle has sides 3, 4, 5. A similar triangle has longest side 20. Shortest side?",
+        "opts": [
+          "8",
+          "10",
+          "12",
+          "15"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "If 5/8 = 25/x, then x =",
+        "opts": [
+          "16",
+          "32",
+          "40",
+          "50"
+        ],
+        "ans": 2
+      }
+    ],
+    "fib": [
+      {
+        "q": "If 4/7 = 12/x, then x = _____.",
+        "ans": "21"
+      },
+      {
+        "q": "A ratio of 15:20 in simplest form is _____.",
+        "ans": "3:4"
+      },
+      {
+        "q": "Running 6 miles in 48 minutes gives _____ minutes per mile.",
+        "ans": "8"
+      },
+      {
+        "q": "A proportion is a statement that two _____ are equal.",
+        "ans": "ratios"
+      },
+      {
+        "q": "Scale 1 cm:5 m, drawing 4 cm. Actual = _____ m.",
+        "ans": "20"
+      },
+      {
+        "q": "If y/4 = 9/12, then y = _____.",
+        "ans": "3"
+      },
+      {
+        "q": "A 1:3 ratio means for every 1 of one thing, there are _____ of the other.",
+        "ans": "3"
+      },
+      {
+        "q": "Solve: 5/x = 15/9. x = _____.",
+        "ans": "3"
+      },
+      {
+        "q": "If 2 pounds of meat costs $7, then 5 pounds costs $_____.",
+        "ans": "17.50"
+      },
+      {
+        "q": "The unit rate of 150 miles in 2.5 hours is _____ mph.",
+        "ans": "60"
+      },
+      {
+        "q": "If k/6 = 8/4, then k = _____.",
+        "ans": "12"
+      },
+      {
+        "q": "Equivalent ratio to 5:8 with second term 40: first term = _____.",
+        "ans": "25"
+      },
+      {
+        "q": "3:7 = 21:_____.",
+        "ans": "49"
+      },
+      {
+        "q": "A scale factor of 3:1 means the image is _____ times larger than the original.",
+        "ans": "3"
+      },
+      {
+        "q": "If 9 items cost $63, the cost per item is $_____.",
+        "ans": "7"
+      },
+      {
+        "q": "Solve: 2.5/10 = x/4. x = _____.",
+        "ans": "1"
+      },
+      {
+        "q": "Two quantities that form a constant ratio are in _____ variation.",
+        "ans": "direct"
+      },
+      {
+        "q": "If 4:9 = x:27, then x = _____.",
+        "ans": "12"
+      },
+      {
+        "q": "A ratio comparing a part to a whole is called a _____.",
+        "ans": "percent or rate"
+      },
+      {
+        "q": "If 3/8 = 15/y, then y = _____.",
+        "ans": "40"
+      },
+      {
+        "q": "A car's fuel economy is 30 mpg. At this rate, 450 miles requires _____ gallons.",
+        "ans": "15"
+      },
+      {
+        "q": "If a:b = 2:5 and b=35, then a = _____.",
+        "ans": "14"
+      },
+      {
+        "q": "Solve: 6/10 = 9/n. n = _____.",
+        "ans": "15"
+      },
+      {
+        "q": "A model airplane has scale 1:72. Real wingspan is 36 feet. Model wingspan = _____ feet.",
+        "ans": "0.5"
+      },
+      {
+        "q": "The ratio 1.5:4.5 simplifies to _____.",
+        "ans": "1:3"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Map scale 1 inch:50 miles. Cities 3.5 inches apart. Actual distance?",
+        "ans": "175 miles"
+      },
+      {
+        "q": "Marcus earns $9.50/hour. Proportion to find earnings in 6 hours.",
+        "ans": "9.50/1=x/6; x=$57"
+      },
+      {
+        "q": "A recipe serves 4 using 3/4 cup butter. How much for 10 servings? Show proportion.",
+        "ans": "0.75/4 = x/10; x=1.875 cups"
+      },
+      {
+        "q": "A photograph 4×6 is enlarged. Width becomes 10. Find new height. Scale factor?",
+        "ans": "Height=15; scale=2.5"
+      },
+      {
+        "q": "A car goes 312 miles on 12 gallons. How far on 16 gallons? Cost at $3.75/gallon?",
+        "ans": "416 miles; $60"
+      },
+      {
+        "q": "Find the missing value: 5/8 = ?/72. Show cross-multiplication.",
+        "ans": "5×72=8×?; ?=45"
+      },
+      {
+        "q": "A class has 12 boys and 16 girls. Write three equivalent ratios for boys to girls.",
+        "ans": "12:16 = 3:4 = 6:8 = 9:12"
+      },
+      {
+        "q": "If y varies directly with x and y=15 when x=5, write the equation and find y when x=11.",
+        "ans": "y=3x; y=33"
+      },
+      {
+        "q": "Two similar rectangles: one is 6cm × 9cm, other is 10cm × ?. Solve the proportion.",
+        "ans": "6/9=10/?; ?=15 cm"
+      },
+      {
+        "q": "Show that 4:6, 6:9, and 10:15 are all equivalent ratios. Explain your method.",
+        "ans": "All reduce to 2:3; cross-products all equal 24 within each"
+      }
+    ],
+    "wp": [
+      {
+        "q": "Car: 312 miles on 12 gallons. Distance on 16 gallons? Cost at $3.75/gal?",
+        "ans": "416 miles; $60"
+      },
+      {
+        "q": "Photo 4×6 in. Enlarged width = 10 in. New height? Scale factor?",
+        "ans": "15 in; scale factor 2.5"
+      },
+      {
+        "q": "Map: 1.5 cm = 45 miles. Cities 8 cm apart. Actual distance?",
+        "ans": "240 miles"
+      },
+      {
+        "q": "Recipe for 6: uses 2¼ cups sugar. Cups needed for 10?",
+        "ans": "3.75 cups"
+      },
+      {
+        "q": "Car travels 165 miles in 3 hours. Proportion for 385 miles?",
+        "ans": "7 hours"
+      },
+      {
+        "q": "A store sells 5 lb of coffee for $22.50. How much for 8 lb?",
+        "ans": "$36"
+      },
+      {
+        "q": "Shadow of a 6-foot person is 9 feet. Shadow of a nearby tree is 30 feet. Height of tree?",
+        "ans": "6/9 = x/30; x=20 feet"
+      },
+      {
+        "q": "A building model uses scale 1:40. The model is 2.5 ft tall. Actual height in feet? In inches?",
+        "ans": "100 ft; 1,200 in"
+      },
+      {
+        "q": "A bike shop sells 3 bikes for every 5 helmets. If 45 helmets are sold, how many bikes?",
+        "ans": "3/5=x/45; x=27 bikes"
+      },
+      {
+        "q": "A cookie recipe using 2 eggs makes 48 cookies. How many eggs for 132 cookies?",
+        "ans": "2/48=x/132; x=5.5 eggs (round to 6)"
+      },
+      {
+        "q": "A car uses 60% highway driving (32 mpg) and 40% city (24 mpg) over 400 miles. How many gallons are used?",
+        "ans": "Highway: 240÷32=7.5 gal; City: 160÷24≈6.67 gal; Total≈14.17 gal"
+      },
+      {
+        "q": "Silver and gold are mixed 3:7 by weight in a 4.5 kg mixture. How many grams of each? At $15/g silver and $60/g gold, what is the total value?",
+        "ans": "Silver=1,350g; Gold=3,150g; Value=$20,250+$189,000=$209,250"
+      },
+      {
+        "q": "At 75 mph a train arrives 20 min early; at 60 mph it arrives 10 min late. Find the distance.",
+        "ans": "75(t−1/3)=60(t+1/6); 15t=35; t=7/3 hrs; d=75×2=150 miles"
+      },
+      {
+        "q": "A photograph's perimeter increases by 60% when enlarged. By what percent does the area increase?",
+        "ans": "Scale factor=1.6; area factor=1.6²=2.56; area increases by 156%"
+      },
+      {
+        "q": "Juice concentrate is mixed with water 1:4. For 60 fl oz of diluted juice, how much concentrate? If concentrate costs $3.20/fl oz, what is the cost?",
+        "ans": "Concentrate=12 fl oz; Cost=$38.40"
+      },
+      {
+        "q": "A map is scale 1:50,000. A lake on the map is 4.8 cm × 3.1 cm. Estimate the actual area in km².",
+        "ans": "Actual: 2.4 km × 1.55 km ≈ 3.72 km²"
+      },
+      {
+        "q": "Workers A, B, C complete a job in 6, 8, and 12 days alone. How long working together?",
+        "ans": "1/6+1/8+1/12=9/24=3/8 per day; days=8/3=2⅔ days"
+      },
+      {
+        "q": "A store buys goods for $x, marks up 35%, then offers 20% off. Write a ratio of final selling price to cost. Is the store making or losing money?",
+        "ans": "x×1.35×0.80=1.08x; ratio=1.08:1; making 8% profit"
+      },
+      {
+        "q": "Two similar cylinders have radii in ratio 3:5. Find the ratio of their surface areas and volumes.",
+        "ans": "Surface areas: 9:25; Volumes: 27:125"
+      },
+      {
+        "q": "A 12-foot ladder leans against a wall. The ratio of height to base distance is 4:3. How high does it reach? Verify with the Pythagorean theorem.",
+        "ans": "k=12/5=2.4; h=9.6 ft; d=7.2 ft; 9.6²+7.2²=144=12² ✓"
+      }
+    ]
+  },
+  "6": {
+    "title": "Integers & Coordinate Plane",
+    "mc": [
+      {
+        "q": "What is −8 + 5?",
+        "opts": [
+          "−3",
+          "3",
+          "13",
+          "−13"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is −6 × (−4)?",
+        "opts": [
+          "−24",
+          "24",
+          "−10",
+          "10"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which point is in Quadrant III?",
+        "opts": [
+          "(3,4)",
+          "(−3,4)",
+          "(−3,−4)",
+          "(3,−4)"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is −15 ÷ 3?",
+        "opts": [
+          "−5",
+          "5",
+          "−45",
+          "45"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is |−23|?",
+        "opts": [
+          "−23",
+          "23",
+          "0",
+          "−1"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Order least to greatest: −5, 3, −1, 0, 7",
+        "opts": [
+          "−5,−1,0,3,7",
+          "7,3,0,−1,−5",
+          "−5,0,−1,3,7",
+          "0,−1,−5,3,7"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is 4 − (−9)?",
+        "opts": [
+          "−5",
+          "−13",
+          "13",
+          "5"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "The origin is at:",
+        "opts": [
+          "(1,1)",
+          "(0,1)",
+          "(1,0)",
+          "(0,0)"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "What is (−3)²?",
+        "opts": [
+          "−9",
+          "9",
+          "6",
+          "−6"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is −7 − (−3)?",
+        "opts": [
+          "−10",
+          "−4",
+          "4",
+          "10"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which is the greatest: −100, −1, 0, −50?",
+        "opts": [
+          "−100",
+          "−1",
+          "0",
+          "−50"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the distance between −4 and 5 on a number line?",
+        "opts": [
+          "1",
+          "9",
+          "−9",
+          "−1"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "(−2) × (−3) × (−4) = ?",
+        "opts": [
+          "24",
+          "−24",
+          "−14",
+          "14"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is −36 ÷ (−9)?",
+        "opts": [
+          "−4",
+          "4",
+          "−27",
+          "27"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which point is on the y-axis?",
+        "opts": [
+          "(3,0)",
+          "(0,0)",
+          "(0,−5)",
+          "(4,−4)"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is |−7| + |3|?",
+        "opts": [
+          "−4",
+          "4",
+          "10",
+          "−10"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is −5 + (−8) + 6?",
+        "opts": [
+          "−7",
+          "7",
+          "−19",
+          "19"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which quadrant contains (−2, 5)?",
+        "opts": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is (−1)¹⁰⁰?",
+        "opts": [
+          "−1",
+          "0",
+          "1",
+          "undefined"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is the additive inverse of −15?",
+        "opts": [
+          "−1/15",
+          "1/15",
+          "15",
+          "−15"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "If x = −4, what is −x?",
+        "opts": [
+          "−4",
+          "4",
+          "1/4",
+          "−1/4"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is −12 × 0?",
+        "opts": [
+          "−12",
+          "0",
+          "12",
+          "undefined"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Point (5, −3) is in which quadrant?",
+        "opts": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "Which is not an integer?",
+        "opts": [
+          "−5",
+          "0",
+          "½",
+          "100"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is |−9 + 4|?",
+        "opts": [
+          "−5",
+          "5",
+          "13",
+          "−13"
+        ],
+        "ans": 1
+      }
+    ],
+    "fib": [
+      {
+        "q": "The opposite of −17 is _____.",
+        "ans": "17"
+      },
+      {
+        "q": "−12 + (−8) = _____.",
+        "ans": "−20"
+      },
+      {
+        "q": "The absolute value of any negative number is always _____.",
+        "ans": "positive"
+      },
+      {
+        "q": "The coordinate plane is divided into _____ quadrants.",
+        "ans": "4"
+      },
+      {
+        "q": "(−3) × 8 = _____.",
+        "ans": "−24"
+      },
+      {
+        "q": "|−45| = _____.",
+        "ans": "45"
+      },
+      {
+        "q": "−7 − 4 = _____.",
+        "ans": "−11"
+      },
+      {
+        "q": "A negative × a negative = _____.",
+        "ans": "positive"
+      },
+      {
+        "q": "The x-coordinate of any point on the y-axis is _____.",
+        "ans": "0"
+      },
+      {
+        "q": "−100 ÷ (−25) = _____.",
+        "ans": "4"
+      },
+      {
+        "q": "The integer 5 units to the left of −3 on the number line is _____.",
+        "ans": "−8"
+      },
+      {
+        "q": "−6 + 6 = _____.",
+        "ans": "0"
+      },
+      {
+        "q": "The y-coordinate of any point on the x-axis is _____.",
+        "ans": "0"
+      },
+      {
+        "q": "(−4)³ = _____.",
+        "ans": "−64"
+      },
+      {
+        "q": "The additive inverse of 8 is _____.",
+        "ans": "−8"
+      },
+      {
+        "q": "3 − (−9) = _____.",
+        "ans": "12"
+      },
+      {
+        "q": "The absolute value of 0 is _____.",
+        "ans": "0"
+      },
+      {
+        "q": "Point (−6, 0) lies on the _____-axis.",
+        "ans": "x"
+      },
+      {
+        "q": "(−5) × 4 × (−2) = _____.",
+        "ans": "40"
+      },
+      {
+        "q": "If |x| = 7, then x = _____ or _____.",
+        "ans": "7 or −7"
+      },
+      {
+        "q": "−18 ÷ 6 + (−3) = _____.",
+        "ans": "−6"
+      },
+      {
+        "q": "The integer halfway between −4 and 8 is _____.",
+        "ans": "2"
+      },
+      {
+        "q": "(−2)⁵ = _____.",
+        "ans": "−32"
+      },
+      {
+        "q": "Quadrant IV contains points where x is _____ and y is _____.",
+        "ans": "positive; negative"
+      },
+      {
+        "q": "−15 + 15 = _____.",
+        "ans": "0"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Plot A(2,3), B(−3,1), C(−2,−4), D(4,−2) and name each quadrant.",
+        "ans": "A:QI, B:QII, C:QIII, D:QIV"
+      },
+      {
+        "q": "Temperature: −6°F morning, rose 18°F by afternoon. Evening temperature? Write integer equation.",
+        "ans": "−6+18=12°F"
+      },
+      {
+        "q": "Submarine at −240 ft. Rises 85 ft, then descends 120 ft. Final depth? Integer expression.",
+        "ans": "−240+85−120=−275 ft"
+      },
+      {
+        "q": "Evaluate: (−3)² + (−4)² − (−5)². Show all steps.",
+        "ans": "9+16−25=0"
+      },
+      {
+        "q": "On the coordinate plane, plot A(−3,−3), B(3,−3), C(3,4). What coordinates complete rectangle ABCD? Find area.",
+        "ans": "D=(−3,4); Area=6×7=42 sq units"
+      },
+      {
+        "q": "List all integers between −20 and −14 inclusive. Find their sum.",
+        "ans": "−20,−19,−18,−17,−16,−15,−14; sum=−119"
+      },
+      {
+        "q": "The temperature changes: −12, +7, −5, +14, −3. Start at 0°C. Final temperature? Show step-by-step.",
+        "ans": "0−12+7−5+14−3=1°C"
+      },
+      {
+        "q": "Find all integers x such that |x| < 5. List them and find their sum.",
+        "ans": "−4,−3,−2,−1,0,1,2,3,4; sum=0"
+      },
+      {
+        "q": "Compute: (−2)³ × (−1)⁴ + (−3)². Show each step.",
+        "ans": "−8×1+9=−8+9=1"
+      },
+      {
+        "q": "On a coordinate plane, the vertices of a triangle are (0,4), (−3,0), (3,0). Find base, height, and area.",
+        "ans": "base=6, height=4, area=½×6×4=12 sq units"
+      }
+    ],
+    "wp": [
+      {
+        "q": "Temperature: −18°F at 6am, rose 23°F by noon, dropped 9°F by evening. Evening temp?",
+        "ans": "−18+23−9=−4°F"
+      },
+      {
+        "q": "Submarine at −240 ft. Rises 85, descends 120. Final depth?",
+        "ans": "−275 ft"
+      },
+      {
+        "q": "Football: +7, −12, +4, −3 yards. Total change in yardage?",
+        "ans": "−4 yards"
+      },
+      {
+        "q": "Plot A(3,−2), B(−4,−2), C(−4,5). Find AB and BC. Area of rectangle with D(3,5)?",
+        "ans": "AB=7, BC=7, Area=49"
+      },
+      {
+        "q": "Temperatures: −12, 4, −7, 15, −3°C. Mean? Range?",
+        "ans": "Mean=−0.6°C; Range=27°C"
+      },
+      {
+        "q": "A diver is 45 feet below the surface (−45 ft). She ascends 28 feet, then descends 13 feet. Final depth?",
+        "ans": "−45+28−13=−30 ft"
+      },
+      {
+        "q": "An elevator is on floor −3. It goes up 7 floors, then down 4 floors, then up 2 floors. Where does it end?",
+        "ans": "−3+7−4+2=2; Floor 2"
+      },
+      {
+        "q": "A golfer scores: −3, +2, −1, 0, −4, +1, −2 on seven holes. What is the total score relative to par?",
+        "ans": "−3+2−1+0−4+1−2=−7"
+      },
+      {
+        "q": "The stock price changed: −$2.50, +$4.00, −$1.25, −$0.75, +$3.50. Net change?",
+        "ans": "+$3.00"
+      },
+      {
+        "q": "Point A is at (−4, 3). Reflect it over the x-axis, then reflect the result over the y-axis. What are the final coordinates?",
+        "ans": "Over x-axis: (−4,−3); over y-axis: (4,−3)"
+      },
+      {
+        "q": "A deep-sea vessel descends −45 ft/min. It stops every 15 minutes for readings. Write depth at each of the first 3 stops. When is it at −2,025 ft?",
+        "ans": "Stop1: −675; Stop2: −1,350; Stop3: −2,025 ft; at t=45 min"
+      },
+      {
+        "q": "Portfolio: +$3,200, −$1,850, −$2,100, +$4,750, −$600. Starting balance $12,000. Final balance? What transaction returns to original?",
+        "ans": "Net: +$3,400; Final: $15,400; need −$3,400"
+      },
+      {
+        "q": "Coldest recorded: −89.2°C; hottest: 56.7°C. Difference in °C? Convert both to °F (F=9/5×C+32) and find the difference again.",
+        "ans": "Diff: 145.9°C; Ant: −128.56°F; DV: 134.06°F; Diff: 262.62°F"
+      },
+      {
+        "q": "Points A=−18 and B=14 on a number line. Point C is ⅔ of the way from A to B. Find C. Find D, the midpoint of C and B.",
+        "ans": "Span=32; C=−18+21.33=3.33≈10/3; D=(10/3+14)/2≈8.67"
+      },
+      {
+        "q": "Monthly profits ($thousands): −45,+120,−30,−75,+200,+85,−15,+60,−40,+110,−25,+90. Find total annual profit and mean monthly profit.",
+        "ans": "Total=$435k; Mean=$36.25k/month"
+      },
+      {
+        "q": "Triangle vertices: A(−5,4), B(3,4), C(3,−2). Find area. Find point D to complete rectangle ABCD and find its area.",
+        "ans": "Triangle A=24; D=(−5,−2); Rectangle A=48"
+      },
+      {
+        "q": "Solve: (−3)x+14=−(x+6). Verify by substitution.",
+        "ans": "x=10; check: −30+14=−16=−(10+6) ✓"
+      },
+      {
+        "q": "Points (−4,1),(2,1),(2,−3),(−4,−3) connected in order. Name the shape. Find perimeter and area.",
+        "ans": "Rectangle; width=6, height=4; P=20; A=24"
+      },
+      {
+        "q": "Temperatures recorded hourly for 8 hours: −3,−1,2,5,4,1,−2,−4. Find mean, median, and the hour with the greatest change from the previous hour.",
+        "ans": "Mean=0.25; Median=0; Greatest change: hr3(+3) or hr7(−3)"
+      },
+      {
+        "q": "Triangle P(0,5), Q(−4,−3), R(4,−3). Find PQ using Pythagorean theorem, perimeter, and area.",
+        "ans": "PQ=√80≈8.94; Perimeter≈25.88; Area=32 sq units"
+      }
+    ]
+  },
+  "7": {
+    "title": "Probability & Statistics",
+    "mc": [
+      {
+        "q": "Bag: 3 red, 5 blue. P(red)?",
+        "opts": [
+          "3/5",
+          "5/8",
+          "3/8",
+          "1/3"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Mean of 12, 8, 15, 7, 18?",
+        "opts": [
+          "12",
+          "14",
+          "11",
+          "15"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Median of 4, 9, 2, 7, 5?",
+        "opts": [
+          "4",
+          "5",
+          "7",
+          "9"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "P=0 means:",
+        "opts": [
+          "Certain",
+          "Likely",
+          "Impossible",
+          "Unlikely"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Mode of 3,7,3,9,4,3,7?",
+        "opts": [
+          "3",
+          "7",
+          "4",
+          "9"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Range of 22,14,38,9,27?",
+        "opts": [
+          "28",
+          "29",
+          "30",
+          "27"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Two coins flipped. P(two tails)?",
+        "opts": [
+          "1/2",
+          "1/4",
+          "3/4",
+          "2/4"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which measure is most affected by outliers?",
+        "opts": [
+          "Mode",
+          "Median",
+          "Mean",
+          "Range"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Die rolled. P(even)?",
+        "opts": [
+          "1/6",
+          "1/3",
+          "1/2",
+          "2/3"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Data: 5,5,7,8,9,9,9. What is the mode?",
+        "opts": [
+          "5",
+          "7",
+          "9",
+          "Both 5 and 9"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "P(A) = 0.3. P(not A) =?",
+        "opts": [
+          "0.3",
+          "0.7",
+          "0.03",
+          "1.3"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Find the median: 3,8,5,9,1,7,4.",
+        "opts": [
+          "5",
+          "4",
+          "7",
+          "3"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which is NOT a measure of central tendency?",
+        "opts": [
+          "Mean",
+          "Range",
+          "Mode",
+          "Median"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A bag has 2 green, 5 red, 3 blue. P(not red)?",
+        "opts": [
+          "1/2",
+          "5/10",
+          "3/5",
+          "1"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Mean of 0, 10, 20, 30?",
+        "opts": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A spinner: 1/4 red, 1/4 blue, 1/2 yellow. P(red or blue)?",
+        "opts": [
+          "1/4",
+          "1/2",
+          "3/4",
+          "1"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "How many outcomes when flipping 3 coins?",
+        "opts": [
+          "3",
+          "6",
+          "8",
+          "12"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Mean of 7,14,21,28?",
+        "opts": [
+          "14",
+          "15",
+          "17.5",
+          "21"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which data set has no mode?",
+        "opts": [
+          "3,3,4,5",
+          "2,4,6,8",
+          "1,2,2,3",
+          "4,4,5,5"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A number is chosen from 1-20. P(multiple of 5)?",
+        "opts": [
+          "1/5",
+          "1/4",
+          "1/10",
+          "4/20"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Removing an outlier from a data set will likely:",
+        "opts": [
+          "Increase the mean",
+          "Decrease the mean",
+          "Not change the mean",
+          "Change the median to the mode"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Data: 10, 20, 30, 40, 50. Standard deviation compared to data 10, 10, 10, 10, 10?",
+        "opts": [
+          "Same",
+          "Larger",
+          "Smaller",
+          "Zero for both"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "You roll a die twice. P(6 both times)?",
+        "opts": [
+          "1/6",
+          "1/12",
+          "1/36",
+          "1/18"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "P(A or B) = P(A) + P(B) when A and B are:",
+        "opts": [
+          "Independent",
+          "Dependent",
+          "Mutually exclusive",
+          "Complementary"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which display is best for showing data over time?",
+        "opts": [
+          "Bar graph",
+          "Circle graph",
+          "Line graph",
+          "Stem-and-leaf"
+        ],
+        "ans": 2
+      }
+    ],
+    "fib": [
+      {
+        "q": "P=1 means an event is _____.",
+        "ans": "certain"
+      },
+      {
+        "q": "The range of a data set is the _____ minus the _____.",
+        "ans": "maximum; minimum"
+      },
+      {
+        "q": "P(rolling a 4 on a die) = _____.",
+        "ans": "1/6"
+      },
+      {
+        "q": "The middle value of ordered data is the _____.",
+        "ans": "median"
+      },
+      {
+        "q": "5 favorable out of 20 outcomes. P = _____.",
+        "ans": "1/4"
+      },
+      {
+        "q": "The sum of all probabilities in a sample space = _____.",
+        "ans": "1"
+      },
+      {
+        "q": "The most frequently occurring value is the _____.",
+        "ans": "mode"
+      },
+      {
+        "q": "The _____ shows all possible outcomes of a compound event.",
+        "ans": "sample space"
+      },
+      {
+        "q": "Mean of 5, 10, 15, 20, 25 = _____.",
+        "ans": "15"
+      },
+      {
+        "q": "P(A) + P(not A) = _____.",
+        "ans": "1"
+      },
+      {
+        "q": "Median of 2, 4, 6, 8, 10 = _____.",
+        "ans": "6"
+      },
+      {
+        "q": "Two events that cannot happen at the same time are called _____.",
+        "ans": "mutually exclusive"
+      },
+      {
+        "q": "The number of ways to arrange 3 items is _____ (3 factorial).",
+        "ans": "6"
+      },
+      {
+        "q": "A _____ shows data split at the tens digit on one side and ones on the other.",
+        "ans": "stem-and-leaf plot"
+      },
+      {
+        "q": "Flipping a coin: P(heads) = _____.",
+        "ans": "1/2"
+      },
+      {
+        "q": "The probability of an impossible event is _____.",
+        "ans": "0"
+      },
+      {
+        "q": "Mean of 6, 6, 6, 6 = _____.",
+        "ans": "6"
+      },
+      {
+        "q": "Median of 1, 3, 5, 7 = _____.",
+        "ans": "4"
+      },
+      {
+        "q": "If P(A)=0.4 and events are complementary, P(not A) = _____.",
+        "ans": "0.6"
+      },
+      {
+        "q": "A _____ uses sectors of a circle to show proportional data.",
+        "ans": "circle (pie) graph"
+      },
+      {
+        "q": "The probability of rolling a number less than 7 on a standard die = _____.",
+        "ans": "1"
+      },
+      {
+        "q": "Range of 4, 17, 9, 3, 12 = _____.",
+        "ans": "14"
+      },
+      {
+        "q": "Experimental probability is based on _____ data.",
+        "ans": "actual (observed)"
+      },
+      {
+        "q": "Choosing a card from a deck: P(ace) = _____.",
+        "ans": "4/52 = 1/13"
+      },
+      {
+        "q": "The _____ of a data set is the sum of values divided by the count.",
+        "ans": "mean"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Scores: 82,91,78,65,91,88,74. Find mean, median, mode, range.",
+        "ans": "Mean≈81.3; Median=82; Mode=91; Range=26"
+      },
+      {
+        "q": "Spinner: 4 equal sections. P(not green)? Explain.",
+        "ans": "P(not green)=3/4=75%"
+      },
+      {
+        "q": "Bag: 5 red, 3 blue, 4 green, 2 yellow. Find P(red), P(not blue), P(green or yellow).",
+        "ans": "5/14; 11/14; 6/14=3/7"
+      },
+      {
+        "q": "Daily sales: 420,385,510,395,480,520,450. Find mean. If Mon becomes $620, new mean?",
+        "ans": "Mean≈$451.43; New mean≈$480"
+      },
+      {
+        "q": "Create a tree diagram for choosing a shirt (red, blue) and pants (black, khaki, gray). List all outcomes. Total?",
+        "ans": "6 outcomes: RB, RK, RG, BB, BK, BG"
+      },
+      {
+        "q": "Data: 2,5,5,6,8,9,9,9,12. Find mean, median, mode, range. Which best represents the data and why?",
+        "ans": "Mean=7.2; Median=8; Mode=9; Range=10; answer varies"
+      },
+      {
+        "q": "A class of 25 students: 15 play sports, 10 play instrument, 4 do both. How many play neither? Show Venn diagram reasoning.",
+        "ans": "21 play at least one; 4 play neither"
+      },
+      {
+        "q": "Spinner has sections of 30°,90°,120°,60°,60° labeled 1-5. P(>2) as fraction, decimal, percent.",
+        "ans": "240/360=2/3≈0.667≈66.7%"
+      },
+      {
+        "q": "Two dice are rolled. List all outcomes giving a sum of 8. Find P(sum=8).",
+        "ans": "5 outcomes: (2,6),(3,5),(4,4),(5,3),(6,2); P=5/36"
+      },
+      {
+        "q": "In 50 coin flips, 28 heads appeared. Compare experimental to theoretical probability. What do you predict for 1000 flips?",
+        "ans": "Experimental: 28/50=56%; Theoretical: 50%; 1000 flips → ≈500 heads"
+      }
+    ],
+    "wp": [
+      {
+        "q": "Bag: 5 red, 3 blue, 4 green, 2 yellow. P(red), P(not blue), P(green or yellow)?",
+        "ans": "5/14; 11/14; 3/7"
+      },
+      {
+        "q": "Scores: 72,85,90,68,95,85,78,92,85,70. Mean, median, mode, range?",
+        "ans": "Mean=82; Median=85; Mode=85; Range=27"
+      },
+      {
+        "q": "Class: 25 students, 15 sports, 10 instrument, 4 both. How many play neither?",
+        "ans": "4 play neither"
+      },
+      {
+        "q": "Spinner: 30°,90°,120°,60°,60° (1-5). P(>2) as fraction, decimal, percent?",
+        "ans": "2/3≈66.7%"
+      },
+      {
+        "q": "Daily sales ($): 420,385,510,395,480,520,450. Mean? If Mon $420→$620, new mean?",
+        "ans": "≈$451.43; ≈$480"
+      },
+      {
+        "q": "A bag contains 10 marbles: 3 red, 4 blue, 3 green. If you draw one marble and don't replace it, what is P(blue then green)?",
+        "ans": "4/10 × 3/9 = 12/90 = 2/15"
+      },
+      {
+        "q": "Weather forecast: 30% chance of rain each day. What is P(no rain both Saturday and Sunday)?",
+        "ans": "0.7 × 0.7 = 0.49 = 49%"
+      },
+      {
+        "q": "A class takes a 10-question true/false quiz. A student guesses all answers. P(getting all 10 correct)?",
+        "ans": "(1/2)¹⁰ = 1/1024"
+      },
+      {
+        "q": "A survey of 200 students: 80 prefer math, 70 English, 50 science. A student is chosen at random. P(prefers English or science)?",
+        "ans": "120/200 = 3/5 = 60%"
+      },
+      {
+        "q": "A school fundraiser: 500 tickets sold, 1 grand prize, 5 second prizes, 20 third prizes. P(winning any prize)?",
+        "ans": "26/500 = 13/250"
+      },
+      {
+        "q": "A class of 32: 18 take math, 14 science, 6 take both. Find P(math only), P(science only), P(neither), P(at least one).",
+        "ans": "Math only=12/32=3/8; Sci only=8/32=1/4; Neither=6/32=3/16; At least one=26/32=13/16"
+      },
+      {
+        "q": "Data: 12,15,11,13,15,17,14,16,13,15,18,12. Find mean, median, mode, range, and check for outliers using IQR×1.5.",
+        "ans": "Mean≈14.25; Median=14.5; Mode=15; Range=7; Q1=12.5,Q3=15.5,IQR=3; no outliers (fences: 8, 20)"
+      },
+      {
+        "q": "A game: 3 doors, 1 car, 2 goats. You pick door 1; host opens door 3 (goat). Compare P(win by staying) vs. P(win by switching).",
+        "ans": "P(stay)=1/3; P(switch)=2/3; always switch"
+      },
+      {
+        "q": "Survey of 100: 40 coffee+morning, 25 coffee+evening, 20 tea+morning, 15 tea+evening. Given preference for morning, what is P(coffee)?",
+        "ans": "P(coffee|morning)=40/60=2/3"
+      },
+      {
+        "q": "Factory tests 200 bulbs; 12 defective. In 1,500 bulbs, how many are expected defective? P(at least one defective) in a pack of 10?",
+        "ans": "Expected: 90; P(at least 1)≈1−(0.94)^10≈47.3%"
+      },
+      {
+        "q": "Quiz scores (out of 10): 7,8,6,9,10,5,8,7,8,9,6,10,7,8,9. What % scored ≥8? If the teacher adds 1 point to all, what % then scores ≥8?",
+        "ans": "Scores ≥8: 9/15=60%; with curve: scores ≥8 includes original 7s → 12/15=80%"
+      },
+      {
+        "q": "Two dice rolled. Find P(sum>9), P(sum is prime), P(difference=2).",
+        "ans": "P(sum>9)=6/36=1/6; P(prime sum)=15/36=5/12; P(diff=2)=8/36=2/9"
+      },
+      {
+        "q": "Box plot: min=12, Q1=18, med=24, Q3=30, max=44. A new value of 60 is added. Is it an outlier? How does each statistic change?",
+        "ans": "Upper fence=30+1.5×12=48; 60>48 → outlier; max and mean change most; median shifts slightly"
+      },
+      {
+        "q": "Weighted average: HW=20%, Quiz=30%, Test=50%. Scores: HW=88, Quiz=75, Test=82. Find weighted average. What test score gives an 85 overall average?",
+        "ans": "WA=81.1; need test: 0.5T=85−40.1=44.9; T=89.8"
+      },
+      {
+        "q": "Bag contains 10 marbles: 3 red, 4 blue, 3 green. Draw one, don't replace, then draw again. P(blue then green)?",
+        "ans": "4/10 × 3/9 = 12/90 = 2/15"
+      }
+    ]
+  },
+  "8": {
+    "title": "Algebraic Expressions & Equations",
+    "mc": [
+      {
+        "q": "Simplify: 3x + 5 + 2x − 3",
+        "opts": [
+          "5x+2",
+          "5x−2",
+          "6x+2",
+          "5x+8"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: x + 14 = 30",
+        "opts": [
+          "x=15",
+          "x=16",
+          "x=44",
+          "x=2"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Evaluate 3a − 2b when a=5, b=4.",
+        "opts": [
+          "7",
+          "8",
+          "23",
+          "−7"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: 4x = 52",
+        "opts": [
+          "x=13",
+          "x=12",
+          "x=48",
+          "x=208"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which expression means 'five less than three times n'?",
+        "opts": [
+          "5−3n",
+          "3n−5",
+          "3(n−5)",
+          "5−n+3"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Solve: x/6 = 9",
+        "opts": [
+          "x=3",
+          "x=15",
+          "x=54",
+          "x=1.5"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which is NOT a like term with 4x²?",
+        "opts": [
+          "7x²",
+          "−2x²",
+          "3x",
+          "9x²"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Solve: 2x + 3 = 15",
+        "opts": [
+          "x=9",
+          "x=7",
+          "x=6",
+          "x=12"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Simplify: 6y − 2y + 3y",
+        "opts": [
+          "7y",
+          "11y",
+          "y",
+          "5y"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: 5x − 8 = 27",
+        "opts": [
+          "x=5",
+          "x=7",
+          "x=4",
+          "x=6"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Evaluate 2x² + 3x − 1 when x=2.",
+        "opts": [
+          "13",
+          "9",
+          "7",
+          "15"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which property: 3(x+4) = 3x+12?",
+        "opts": [
+          "Commutative",
+          "Associative",
+          "Distributive",
+          "Identity"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Solve: x/3 + 2 = 7",
+        "opts": [
+          "x=5",
+          "x=15",
+          "x=27",
+          "x=3"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which is a solution to 2x − 5 > 11?",
+        "opts": [
+          "x=7",
+          "x=8",
+          "x=5",
+          "x=6"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Simplify: 4(2x − 3) + 5x",
+        "opts": [
+          "13x−12",
+          "13x+12",
+          "8x−12",
+          "3x−12"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: −3x = 21",
+        "opts": [
+          "x=7",
+          "x=−7",
+          "x=−63",
+          "x=63"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "The coefficient in 7xy is:",
+        "opts": [
+          "7",
+          "x",
+          "y",
+          "xy"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: 2(x+4) = 18",
+        "opts": [
+          "x=5",
+          "x=7",
+          "x=9",
+          "x=11"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Simplify: 3x − (2x + 5)",
+        "opts": [
+          "x−5",
+          "x+5",
+          "5x−5",
+          "−x−5"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Evaluate: (4+x)/2 when x=8.",
+        "opts": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Solve: 3(2x−1) = 15",
+        "opts": [
+          "x=2",
+          "x=3",
+          "x=4",
+          "x=5"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which inequality is graphed with a closed dot?",
+        "opts": [
+          "x > 3",
+          "x < 5",
+          "x ≥ 2",
+          "x ≠ 4"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "If 2n+1 is an odd integer, the next odd integer is:",
+        "opts": [
+          "2n+2",
+          "2n+3",
+          "n+2",
+          "2n+4"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Solve: 4x+2 = 2x+10",
+        "opts": [
+          "x=2",
+          "x=3",
+          "x=4",
+          "x=6"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which value makes 5 − 2x = −3 true?",
+        "opts": [
+          "x=−4",
+          "x=4",
+          "x=1",
+          "x=−1"
+        ],
+        "ans": 1
+      }
+    ],
+    "fib": [
+      {
+        "q": "In 7y − 4, the coefficient of y is _____.",
+        "ans": "7"
+      },
+      {
+        "q": "n − 9 = 21. n = _____.",
+        "ans": "30"
+      },
+      {
+        "q": "The constant in 5x + 3 is _____.",
+        "ans": "3"
+      },
+      {
+        "q": "2x² when x=3 = _____.",
+        "ans": "18"
+      },
+      {
+        "q": "3x = 45. x = _____.",
+        "ans": "15"
+      },
+      {
+        "q": "Simplify: 5a + 3b − 2a + b = _____.",
+        "ans": "3a + 4b"
+      },
+      {
+        "q": "Solve: x/4 = 12. x = _____.",
+        "ans": "48"
+      },
+      {
+        "q": "Evaluate: 3m − n when m=4, n=−2. Answer = _____.",
+        "ans": "14"
+      },
+      {
+        "q": "Solve: 2x + 7 = 3. x = _____.",
+        "ans": "−2"
+      },
+      {
+        "q": "The number of terms in 4x² + 3x − 7 is _____.",
+        "ans": "3"
+      },
+      {
+        "q": "Solve: x − 15 = −4. x = _____.",
+        "ans": "11"
+      },
+      {
+        "q": "The degree of the term 5x³ is _____.",
+        "ans": "3"
+      },
+      {
+        "q": "Solve: 6 = 2(x+1). x = _____.",
+        "ans": "2"
+      },
+      {
+        "q": "3(x + 4) expanded = _____.",
+        "ans": "3x + 12"
+      },
+      {
+        "q": "Solve: −5x = −35. x = _____.",
+        "ans": "7"
+      },
+      {
+        "q": "Evaluate: x² − 4 when x = −3. Answer = _____.",
+        "ans": "5"
+      },
+      {
+        "q": "Solve: 3x − 4 = 2x + 7. x = _____.",
+        "ans": "11"
+      },
+      {
+        "q": "Like terms in 4x + 3y − 2x + 5y: combine to get _____.",
+        "ans": "2x + 8y"
+      },
+      {
+        "q": "Solve: x/3 = −9. x = _____.",
+        "ans": "−27"
+      },
+      {
+        "q": "Translate: a number decreased by 11 equals 25. Equation: _____.",
+        "ans": "n − 11 = 25"
+      },
+      {
+        "q": "Solve: 2(3x − 4) = 16. x = _____.",
+        "ans": "4"
+      },
+      {
+        "q": "Evaluate: 4(a − b) when a=5, b=2. Answer = _____.",
+        "ans": "12"
+      },
+      {
+        "q": "The solution set of x > −3 on a number line starts at −3 with a _____ dot.",
+        "ans": "open"
+      },
+      {
+        "q": "Simplify: 2x − 3(x − 1) = _____.",
+        "ans": "−x + 3"
+      },
+      {
+        "q": "Solve: 0.5x + 3 = 8. x = _____.",
+        "ans": "10"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Marcus has $5 more than twice what Lisa has. Together $47. Find each person's amount.",
+        "ans": "2L+5+L=47; L=$14; Marcus=$33"
+      },
+      {
+        "q": "Solve and check: 3x − 7 = 14.",
+        "ans": "3x=21; x=7; check: 21−7=14 ✓"
+      },
+      {
+        "q": "Plumber: $45 flat fee + $35/hour. Bill was $185. How many hours?",
+        "ans": "45+35h=185; h=4 hours"
+      },
+      {
+        "q": "Sum of three consecutive even integers is 114. Find them.",
+        "ans": "n+(n+2)+(n+4)=114; 36,38,40"
+      },
+      {
+        "q": "Tyler has $5 less than 3 times Maya's amount. Together $79. Find each.",
+        "ans": "3m−5+m=79; m=$21; Tyler=$58"
+      },
+      {
+        "q": "Solve: 2(3x−4) + 5 = 3(x+2). Show all steps.",
+        "ans": "6x−8+5=3x+6; 3x=9; x=3"
+      },
+      {
+        "q": "Perimeter of rectangle is 54 cm. Length is 3 more than twice width. Find dimensions.",
+        "ans": "w=8; l=19 cm"
+      },
+      {
+        "q": "Write an inequality for: 'a number decreased by 4 is at most 11.' Solve and graph.",
+        "ans": "n−4≤11; n≤15"
+      },
+      {
+        "q": "A number doubled, then 9 is added, gives 35. Find the number. Write equation and verify.",
+        "ans": "2n+9=35; n=13; check: 26+9=35 ✓"
+      },
+      {
+        "q": "Evaluate and simplify: 3(2a+b) − 2(a−3b) when a=2, b=−1.",
+        "ans": "6a+3b−2a+6b=4a+9b; 4(2)+9(−1)=8−9=−1"
+      }
+    ],
+    "wp": [
+      {
+        "q": "Plumber: $45 flat + $35/hour. Bill was $185. How many hours?",
+        "ans": "4 hours"
+      },
+      {
+        "q": "A number doubled then increased by 7 gives 31. Find the number.",
+        "ans": "n=12"
+      },
+      {
+        "q": "Tyler has $5 less than 3× Maya's amount. Together $79. Find each.",
+        "ans": "Maya=$21; Tyler=$58"
+      },
+      {
+        "q": "Sum of three consecutive even integers is 114. Find them.",
+        "ans": "36, 38, 40"
+      },
+      {
+        "q": "Perimeter of a rectangle is 54 cm. Length is 3 more than twice width. Find dimensions.",
+        "ans": "w=8, l=19 cm"
+      },
+      {
+        "q": "A taxi charges $2.50 flat plus $1.75 per mile. A ride costs $14. How many miles?",
+        "ans": "2.5+1.75m=14; m=6.57; about 6.6 miles"
+      },
+      {
+        "q": "Anna is 3 years more than twice Ben's age. Their ages sum to 33. How old is each?",
+        "ans": "b+(2b+3)=33; b=10; Anna=23"
+      },
+      {
+        "q": "A rectangle's area is 48 cm². Its length is 3 more than its width. Find both dimensions.",
+        "ans": "w(w+3)=48; w=6, l=9 cm"
+      },
+      {
+        "q": "A store sold 3 times as many small candles as large. Total candles: 80. How many of each?",
+        "ans": "3L+L=80; L=20 large, 60 small"
+      },
+      {
+        "q": "After spending 2/5 of her money and then $12 more, Carla has $18 left. How much did she start with?",
+        "ans": "3x/5 − 12 = 18; x = $50"
+      },
+      {
+        "q": "Plan A: $30/month + $0.05/text. Plan B: $20/month + $0.12/text. At how many texts do they cost the same? Which is better for heavy texters?",
+        "ans": "30+0.05t=20+0.12t; t≈143; Plan A is better over 143 texts"
+      },
+      {
+        "q": "Four consecutive odd integers sum to 136. Find them and verify.",
+        "ans": "n+(n+2)+(n+4)+(n+6)=136; n=31; integers: 31,33,35,37"
+      },
+      {
+        "q": "A chemist mixes 30% and 70% acid solutions to make 400 mL of 45% solution. How much of each?",
+        "ans": "0.30x+0.70(400−x)=180; x=250 mL of 30%; 150 mL of 70%"
+      },
+      {
+        "q": "Car A: 55 mph. Car B starts 1.5 hrs later at 70 mph, same direction. When does B overtake A? How far from the start?",
+        "ans": "55(t+1.5)=70t; t=5.5 hrs; d=385 miles"
+      },
+      {
+        "q": "A rectangle has area 84 cm² and perimeter 38 cm. Find the dimensions.",
+        "ans": "l+w=19; lw=84; l²−19l+84=0; l=12, w=7 cm"
+      },
+      {
+        "q": "Solve: −3(2x−4) ≥ 6(x+1). Graph on a number line. Give three integer solutions.",
+        "ans": "−6x+12≥6x+6; 6≥12x; x≤1/2; solutions: 0, −1, −2"
+      },
+      {
+        "q": "A jar has nickels and dimes totaling $3.80. There are 5 more dimes than nickels. How many of each?",
+        "ans": "5n+10(n+5)=380; 15n=330; n=22 nickels; 27 dimes"
+      },
+      {
+        "q": "A farmer has chickens and cows: 30 heads, 92 legs. How many of each?",
+        "ans": "c+k=30; 4c+2k=92; c=16 cows; k=14 chickens"
+      },
+      {
+        "q": "Train travel: at (3x+15) mph for (x−2) hours covers 180 miles. Solve for x, find speed and time, verify.",
+        "ans": "(3x+15)(x−2)=180; x=7; speed=36 mph; time=5 hrs; 36×5=180 ✓"
+      },
+      {
+        "q": "Anna is 3 years more than twice Ben's age. Their ages sum to 33. How old is each?",
+        "ans": "b+(2b+3)=33; b=10; Anna=23"
+      }
+    ]
+  },
+  "9": {
+    "title": "Measurement & Scale",
+    "mc": [
+      {
+        "q": "How many mm in 4.5 cm?",
+        "opts": [
+          "0.45",
+          "4.5",
+          "45",
+          "450"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Convert 3 yards to feet.",
+        "opts": [
+          "6",
+          "9",
+          "12",
+          "36"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Unit for mass of a car?",
+        "opts": [
+          "mg",
+          "g",
+          "kg",
+          "L"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "12 feet = how many inches?",
+        "opts": [
+          "36",
+          "96",
+          "120",
+          "144"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "Convert 2.5 km to meters.",
+        "opts": [
+          "25",
+          "250",
+          "2500",
+          "25000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Map: 1 cm=10 km. Road is 3.5 cm. Actual?",
+        "opts": [
+          "3.5",
+          "10",
+          "35",
+          "350"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Cups in 1 gallon?",
+        "opts": [
+          "8",
+          "12",
+          "16",
+          "20"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Greater: 2,500 g or 3 kg?",
+        "opts": [
+          "2,500 g",
+          "3 kg",
+          "Equal",
+          "Cannot compare"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Convert 5 pounds to ounces.",
+        "opts": [
+          "50",
+          "60",
+          "70",
+          "80"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "1 liter = how many milliliters?",
+        "opts": [
+          "10",
+          "100",
+          "1,000",
+          "10,000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Convert 4.2 kg to grams.",
+        "opts": [
+          "42",
+          "420",
+          "4,200",
+          "42,000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which is longer: 1 meter or 1 yard?",
+        "opts": [
+          "1 meter",
+          "1 yard",
+          "They are equal",
+          "Depends on location"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Convert 2 miles to feet.",
+        "opts": [
+          "5,280",
+          "10,560",
+          "2,640",
+          "3,520"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "How many quarts in 3 gallons?",
+        "opts": [
+          "6",
+          "9",
+          "12",
+          "24"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Convert 7 cm to mm.",
+        "opts": [
+          "0.7",
+          "7",
+          "70",
+          "700"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Convert 360 seconds to minutes.",
+        "opts": [
+          "3",
+          "6",
+          "36",
+          "60"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "1 ton = how many pounds?",
+        "opts": [
+          "100",
+          "1,000",
+          "2,000",
+          "10,000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Convert 4.5 liters to milliliters.",
+        "opts": [
+          "45",
+          "450",
+          "4,500",
+          "45,000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which is smallest: 1 km, 1 mile, 1 yard?",
+        "opts": [
+          "1 km",
+          "1 mile",
+          "1 yard",
+          "They are equal"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Convert 3 feet to centimeters (1 ft ≈ 30.5 cm).",
+        "opts": [
+          "91.5",
+          "3.05",
+          "305",
+          "9.15"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "How many pints in 4 quarts?",
+        "opts": [
+          "4",
+          "8",
+          "12",
+          "16"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Convert 0.5 km to meters.",
+        "opts": [
+          "5",
+          "50",
+          "500",
+          "5,000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "A room measures 9 feet by 12 feet. Convert both to inches.",
+        "opts": [
+          "108×144",
+          "108×136",
+          "100×144",
+          "90×120"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Convert 2 hours 15 minutes to minutes.",
+        "opts": [
+          "120",
+          "125",
+          "135",
+          "215"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which unit is best for measuring the volume of a swimming pool?",
+        "opts": [
+          "mL",
+          "L",
+          "cm³",
+          "oz"
+        ],
+        "ans": 1
+      }
+    ],
+    "fib": [
+      {
+        "q": "There are _____ cm in 1 m.",
+        "ans": "100"
+      },
+      {
+        "q": "1 mile = _____ feet.",
+        "ans": "5,280"
+      },
+      {
+        "q": "To convert km to m, multiply by _____.",
+        "ans": "1,000"
+      },
+      {
+        "q": "1 pound = _____ ounces.",
+        "ans": "16"
+      },
+      {
+        "q": "There are _____ pints in 1 quart.",
+        "ans": "2"
+      },
+      {
+        "q": "1 kilogram = _____ grams.",
+        "ans": "1,000"
+      },
+      {
+        "q": "To convert cm to mm, multiply by _____.",
+        "ans": "10"
+      },
+      {
+        "q": "There are _____ fluid ounces in 1 cup.",
+        "ans": "8"
+      },
+      {
+        "q": "1 yard = _____ inches.",
+        "ans": "36"
+      },
+      {
+        "q": "To convert larger units to smaller, you _____.",
+        "ans": "multiply"
+      },
+      {
+        "q": "There are _____ hours in 1 day.",
+        "ans": "24"
+      },
+      {
+        "q": "1 gallon = _____ quarts.",
+        "ans": "4"
+      },
+      {
+        "q": "A meter is approximately _____ yards.",
+        "ans": "1.09"
+      },
+      {
+        "q": "1 ton = _____ pounds.",
+        "ans": "2,000"
+      },
+      {
+        "q": "There are _____ cm in 1 km.",
+        "ans": "100,000"
+      },
+      {
+        "q": "Convert 3.5 hours to minutes: _____.",
+        "ans": "210"
+      },
+      {
+        "q": "1 liter ≈ _____ fluid ounces (approximately).",
+        "ans": "33.8"
+      },
+      {
+        "q": "There are _____ seconds in 1 hour.",
+        "ans": "3,600"
+      },
+      {
+        "q": "To convert meters to centimeters, multiply by _____.",
+        "ans": "100"
+      },
+      {
+        "q": "1 cup = _____ tablespoons.",
+        "ans": "16"
+      },
+      {
+        "q": "There are _____ feet in 1 mile.",
+        "ans": "5,280"
+      },
+      {
+        "q": "1 inch = _____ cm (approximately).",
+        "ans": "2.54"
+      },
+      {
+        "q": "Convert 180 minutes to hours: _____.",
+        "ans": "3"
+      },
+      {
+        "q": "There are _____ milliliters in 2.5 liters.",
+        "ans": "2,500"
+      },
+      {
+        "q": "1 pound ≈ _____ kilograms.",
+        "ans": "0.454"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Pool holds 18,000 gallons. Convert to quarts. Show all steps.",
+        "ans": "72,000 quarts"
+      },
+      {
+        "q": "Scale drawing: 1 in=8 ft. Room is 4.5×3 in on drawing. Actual dimensions?",
+        "ans": "36 ft × 24 ft"
+      },
+      {
+        "q": "A recipe needs 2.5 kg flour. Store sells in 1-lb bags. How many bags? (1 kg≈2.205 lbs)",
+        "ans": "2.5×2.205=5.5 lbs; need 6 bags"
+      },
+      {
+        "q": "Swimmer: 40 laps in 25-meter pool. How many km? Show conversion steps.",
+        "ans": "1,000 m = 1 km"
+      },
+      {
+        "q": "Room: 14 ft 6 in by 12 ft 3 in. Convert to inches. Find perimeter in feet and inches.",
+        "ans": "174×147 in; P=642 in=53 ft 6 in"
+      },
+      {
+        "q": "A fence is 3 miles long. Express in yards, feet, and inches. Show each conversion.",
+        "ans": "5,280 yd; 15,840 ft; 190,080 in"
+      },
+      {
+        "q": "Convert 5 hours 45 minutes to seconds. Show all steps.",
+        "ans": "5×3600+45×60=18,000+2,700=20,700 seconds"
+      },
+      {
+        "q": "Map scale: 1 in=25 miles. Two towns 3 ft 4 in apart on map. Actual distance?",
+        "ans": "40 in × 25 = 1,000 miles"
+      },
+      {
+        "q": "A car travels 3.5 km. Convert to meters, centimeters, and millimeters.",
+        "ans": "3,500 m; 350,000 cm; 3,500,000 mm"
+      },
+      {
+        "q": "A bathtub holds 280 liters. Convert to: mL, gallons (1 gal≈3.785 L), and quarts.",
+        "ans": "280,000 mL; ≈74 gal; ≈296 qt"
+      }
+    ],
+    "wp": [
+      {
+        "q": "Recipe: 2.5 kg flour. Bags sold in 1-lb bags (1 kg≈2.205 lbs). How many bags?",
+        "ans": "6 bags"
+      },
+      {
+        "q": "Swimmer: 40 laps × 25 m. How many km?",
+        "ans": "1 km"
+      },
+      {
+        "q": "Room: 14 ft 6 in × 12 ft 3 in. Perimeter in feet and inches?",
+        "ans": "53 ft 6 in"
+      },
+      {
+        "q": "Car uses 8 gal to travel 272 miles. How many quarts to travel 510 miles?",
+        "ans": "60 quarts"
+      },
+      {
+        "q": "Map: 1 in=25 miles. Towns 3 ft 4 in apart. Actual distance?",
+        "ans": "1,000 miles"
+      },
+      {
+        "q": "A hiker walks 12,500 meters. How many km? How many miles (1 mi≈1.609 km)?",
+        "ans": "12.5 km; ≈7.77 miles"
+      },
+      {
+        "q": "A storage tank holds 500 gallons. It is filled at 15 gallons per minute. How many hours and minutes to fill it?",
+        "ans": "500/15≈33.3 min = 33 min 20 sec (about 33 min)"
+      },
+      {
+        "q": "A recipe uses 750 mL of milk. How many liters? If a carton holds 1 liter, how many cartons needed?",
+        "ans": "0.75 L; 1 carton"
+      },
+      {
+        "q": "A builder needs 45 yards of fencing. If fencing comes in 8-foot sections, how many sections? (1 yd = 3 ft)",
+        "ans": "45×3=135 ft; 135÷8≈16.9; need 17 sections"
+      },
+      {
+        "q": "A scale model car is built to scale 1:24. The real car is 15 feet long. How long is the model in inches?",
+        "ans": "15 ft=180 in; 180÷24=7.5 in"
+      },
+      {
+        "q": "A jet flies 575 mph. Convert to km/h, m/s, and km/min. (1 mile≈1.609 km)",
+        "ans": "925.2 km/h; ≈257.0 m/s; ≈15.42 km/min"
+      },
+      {
+        "q": "A plumber has 15 ft 9 in of copper pipe. He cuts pieces of 1 ft 8 in each. How many full pieces? How many inches remain?",
+        "ans": "Total=189 in; each=20 in; 9 pieces; 9 inches remain"
+      },
+      {
+        "q": "A shipping container is 20×8×8.5 ft. Convert all to meters (1 ft=0.3048 m). Find volume in m³ and liters.",
+        "ans": "6.096×2.438×2.591≈38.51 m³; 38,510 L"
+      },
+      {
+        "q": "A car speedometer reads 65 mph. A European sign says limit is 100 km/h. Is the car speeding? By how much?",
+        "ans": "65×1.609≈104.6 km/h; over limit by ≈4.6 km/h≈2.85 mph"
+      },
+      {
+        "q": "Scale drawing: 1 in=40 ft. Building is 3.75 in tall and 5.5 in wide. Actual height and width? Ratio of actual area to drawing area?",
+        "ans": "Height=150 ft; Width=220 ft; Area ratio=1,600:1"
+      },
+      {
+        "q": "A hiker walks 8 km north then 15 km east. Straight-line distance back to start? Convert to miles (1 mi≈1.609 km).",
+        "ans": "√(64+225)=17 km≈10.57 miles"
+      },
+      {
+        "q": "A water plant processes 2.4 million gallons/day. Convert to L/hr, m³/hr, and gal/sec.",
+        "ans": "≈378,500 L/hr; ≈378.5 m³/hr; ≈27.78 gal/sec"
+      },
+      {
+        "q": "A snail travels 2.5 mm/sec. Express as cm/min, m/hr, and km/day.",
+        "ans": "15 cm/min; 9 m/hr; 0.216 km/day"
+      },
+      {
+        "q": "A square lot is 75 ft on each side. Posts every 6 ft. How many posts (including corners)? Cost at $18.50 each?",
+        "ans": "P=300 ft; 300÷6=50 posts; Cost=$925"
+      },
+      {
+        "q": "A recipe scales from 12 to 7 servings. Full recipe: 2 lb 6 oz beef, 1 cup 3 fl oz broth, 3¼ tsp salt. Find each ingredient for 7 servings.",
+        "ans": "Beef≈1 lb 6.2 oz; Broth≈6.4 fl oz; Salt≈1.9 tsp"
+      }
+    ]
+  },
+  "10": {
+    "title": "Area, Perimeter & Volume",
+    "mc": [
+      {
+        "q": "Area of rectangle: l=12, w=7 cm?",
+        "opts": [
+          "38 cm²",
+          "76 cm²",
+          "84 cm²",
+          "84 cm"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Circumference: r=5 cm (π≈3.14)?",
+        "opts": [
+          "15.7",
+          "31.4",
+          "78.5",
+          "62.8"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Area of triangle: b=10, h=6 in?",
+        "opts": [
+          "30 in²",
+          "60 in²",
+          "16 in²",
+          "30 in"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Volume of prism: l=4, w=3, h=5 m?",
+        "opts": [
+          "24",
+          "60",
+          "47",
+          "47"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Area of circle: d=10 cm (π≈3.14)?",
+        "opts": [
+          "31.4",
+          "62.8",
+          "78.5",
+          "314"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Perimeter of square: side=9 m?",
+        "opts": [
+          "18",
+          "27",
+          "36",
+          "81"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Area of parallelogram: b=8, h=5 ft?",
+        "opts": [
+          "26",
+          "40",
+          "20",
+          "13"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Volume of cube: side=4 cm?",
+        "opts": [
+          "16",
+          "24",
+          "48",
+          "64"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "Perimeter of rectangle: l=15, w=8?",
+        "opts": [
+          "120",
+          "23",
+          "46",
+          "30"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Area of trapezoid: b₁=6, b₂=10, h=4?",
+        "opts": [
+          "24",
+          "32",
+          "40",
+          "64"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Circumference: d=14 cm (π≈3.14)?",
+        "opts": [
+          "43.96",
+          "21.98",
+          "153.86",
+          "87.92"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Volume of cylinder: r=3, h=10 (π≈3.14)?",
+        "opts": [
+          "94.2",
+          "282.6",
+          "942",
+          "28.26"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Area of square: side=13?",
+        "opts": [
+          "52",
+          "104",
+          "169",
+          "26"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Perimeter of equilateral triangle: side=9?",
+        "opts": [
+          "9",
+          "18",
+          "27",
+          "81"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Surface area of cube: side=5 cm?",
+        "opts": [
+          "25",
+          "125",
+          "150",
+          "300"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Area of circle: r=6 (π≈3.14)?",
+        "opts": [
+          "18.84",
+          "37.68",
+          "113.04",
+          "226.08"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Volume of rectangular prism: 8×5×3?",
+        "opts": [
+          "16",
+          "40",
+          "120",
+          "240"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which has greater area: square (s=6) or circle (r=4, π≈3.14)?",
+        "opts": [
+          "Square",
+          "Circle",
+          "Equal",
+          "Cannot determine"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Perimeter of regular hexagon: side=7?",
+        "opts": [
+          "21",
+          "35",
+          "42",
+          "49"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Area of right triangle: legs 5 and 12?",
+        "opts": [
+          "30",
+          "60",
+          "13",
+          "17"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Surface area of rectangular prism: 4×3×2?",
+        "opts": [
+          "24",
+          "26",
+          "52",
+          "48"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Volume of cylinder: d=6, h=8 (π≈3.14)?",
+        "opts": [
+          "75.36",
+          "150.72",
+          "226.08",
+          "904.32"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What happens to the area if a rectangle's length is doubled?",
+        "opts": [
+          "Stays same",
+          "Doubles",
+          "Quadruples",
+          "Triples"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Diameter of circle with circumference 31.4 cm (π≈3.14)?",
+        "opts": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Volume of cone = 1/3 × base area × height. Cone: r=3, h=7 (π≈3.14)?",
+        "opts": [
+          "21",
+          "65.94",
+          "197.82",
+          "659.4"
+        ],
+        "ans": 1
+      }
+    ],
+    "fib": [
+      {
+        "q": "Trapezoid: b₁=6, b₂=10, h=4. Area = _____.",
+        "ans": "32 sq units"
+      },
+      {
+        "q": "Square with area 49 cm². Side = _____ cm.",
+        "ans": "7"
+      },
+      {
+        "q": "Area of circle formula: A = _____.",
+        "ans": "πr²"
+      },
+      {
+        "q": "Rectangle: l=8, w=5. Perimeter = _____.",
+        "ans": "26 units"
+      },
+      {
+        "q": "Cylinder: r=3, h=10 (π≈3.14). V ≈ _____.",
+        "ans": "282.6"
+      },
+      {
+        "q": "Perimeter formula for a rectangle: P = _____.",
+        "ans": "2l + 2w"
+      },
+      {
+        "q": "Volume of a cube with side s: V = _____.",
+        "ans": "s³"
+      },
+      {
+        "q": "Area of a triangle: A = _____.",
+        "ans": "½bh"
+      },
+      {
+        "q": "Circumference formula using diameter: C = _____.",
+        "ans": "πd"
+      },
+      {
+        "q": "Surface area of a rectangular prism: SA = _____.",
+        "ans": "2(lw + lh + wh)"
+      },
+      {
+        "q": "Rectangle: l=9, w=4. Area = _____.",
+        "ans": "36 sq units"
+      },
+      {
+        "q": "A circle with radius 5 has circumference ≈ _____ (π≈3.14).",
+        "ans": "31.4 units"
+      },
+      {
+        "q": "Volume of a rectangular prism: V = _____.",
+        "ans": "lwh"
+      },
+      {
+        "q": "Equilateral triangle: all sides = 8. Perimeter = _____.",
+        "ans": "24 units"
+      },
+      {
+        "q": "Doubling both dimensions of a rectangle multiplies area by _____.",
+        "ans": "4"
+      },
+      {
+        "q": "Area of parallelogram: A = _____.",
+        "ans": "base × height"
+      },
+      {
+        "q": "Cube with side 6: surface area = _____.",
+        "ans": "216 sq units"
+      },
+      {
+        "q": "The apothem of a regular polygon is used to calculate its _____.",
+        "ans": "area"
+      },
+      {
+        "q": "Area of a circle with diameter 20 (π≈3.14) = _____.",
+        "ans": "314 sq units"
+      },
+      {
+        "q": "A square's diagonal formula: d = s_____.",
+        "ans": "√2"
+      },
+      {
+        "q": "Volume of a cone = 1/3 × _____ × height.",
+        "ans": "πr²"
+      },
+      {
+        "q": "Perimeter of a regular octagon with side 5 = _____.",
+        "ans": "40 units"
+      },
+      {
+        "q": "Surface area of a cube with side 4 = _____.",
+        "ans": "96 sq units"
+      },
+      {
+        "q": "A cylinder's volume formula: V = _____.",
+        "ans": "πr²h"
+      },
+      {
+        "q": "Hemisphere volume = ½ × (4/3)πr³. For r=3 (π≈3.14) ≈ _____.",
+        "ans": "56.52 cubic units"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Circular fountain d=18 ft, 3-ft path around it. Area of path only (π≈3.14)?",
+        "ans": "Large r=12: A=452.16; Small r=9: A=254.34; Path≈197.82 sq ft"
+      },
+      {
+        "q": "Room 15×12 ft. Carpet $4.50/sq ft. Baseboard $1.20/linear ft. Total cost?",
+        "ans": "Carpet=$810; Baseboard=$64.80; Total=$874.80"
+      },
+      {
+        "q": "Cylinder: r=8 m, h=15 m. Volume in liters (1 m³=1,000 L, π≈3.14)?",
+        "ans": "3,014.4 m³=3,014,400 L"
+      },
+      {
+        "q": "Garden trapezoid: bases 14 m and 20 m, h=9 m. Fertilizer $2.40/m². Total cost?",
+        "ans": "A=153 m²; Cost=$367.20"
+      },
+      {
+        "q": "Composite: square (s=10) with triangle on top (b=10, h=6). Total area?",
+        "ans": "100+30=130 cm²"
+      },
+      {
+        "q": "Find the area of a regular hexagon with side 6 cm (A = 3√3/2 × s²).",
+        "ans": "A=3√3/2×36≈93.53 cm²"
+      },
+      {
+        "q": "A swimming pool is 50 m × 25 m × 2 m deep. Find volume in liters and gallons (1 gal≈3.785 L).",
+        "ans": "2,500 m³=2,500,000 L≈660,502 gal"
+      },
+      {
+        "q": "An ice cream cone: r=4 cm, cone h=12 cm. Find the volume (π≈3.14).",
+        "ans": "V=1/3×3.14×16×12≈200.96 cm³"
+      },
+      {
+        "q": "A metal pipe: outer r=5 cm, inner r=4 cm, h=20 cm. Find the volume of metal (π≈3.14).",
+        "ans": "V=3.14×(25−16)×20=3.14×9×20≈565.2 cm³"
+      },
+      {
+        "q": "A rectangular box: 30 cm × 20 cm × 15 cm. Find surface area and volume.",
+        "ans": "SA=2(600+450+300)=2,700 cm²; V=9,000 cm³"
+      }
+    ],
+    "wp": [
+      {
+        "q": "Circular fountain d=18 ft, 3-ft path around it. Path area (π≈3.14)?",
+        "ans": "≈197.82 sq ft"
+      },
+      {
+        "q": "Room 15×12 ft. Carpet $4.50/sq ft. Baseboard $1.20/linear ft. Total?",
+        "ans": "$874.80"
+      },
+      {
+        "q": "Cylinder: r=8 m, h=15 m. Volume in liters (π≈3.14)?",
+        "ans": "3,014,400 L"
+      },
+      {
+        "q": "Trapezoid garden: bases 14 m, 20 m, h=9 m. Fertilizer $2.40/m². Total?",
+        "ans": "$367.20"
+      },
+      {
+        "q": "Square (s=10) + triangle on top (b=10, h=6). Total area?",
+        "ans": "130 cm²"
+      },
+      {
+        "q": "A farmer wants to fence a rectangular field 120 m × 85 m. Fencing costs $4.50 per meter. Total cost?",
+        "ans": "P=410 m; Cost=$1,845"
+      },
+      {
+        "q": "A cylindrical water tank has diameter 3 m and height 4 m. How many liters does it hold? (π≈3.14, 1 m³=1,000 L)",
+        "ans": "V=3.14×2.25×4=28.26 m³=28,260 L"
+      },
+      {
+        "q": "A triangular park has base 80 m and height 45 m. Grass seed covers 6 m² per bag. How many bags needed?",
+        "ans": "A=½×80×45=1,800 m²; 1,800÷6=300 bags"
+      },
+      {
+        "q": "A cube-shaped box has side 0.8 m. How many boxes fit in a truck bed 2.4 m × 1.6 m × 1.6 m?",
+        "ans": "Truck V=6.144 m³; Box V=0.512 m³; 12 boxes"
+      },
+      {
+        "q": "A circular pizza has diameter 16 inches. It is cut into 8 equal slices. What is the area of each slice? (π≈3.14)",
+        "ans": "Total A=3.14×64=200.96; per slice=200.96÷8≈25.12 sq in"
+      },
+      {
+        "q": "A composite shape: semicircle atop a rectangle, rectangle 10 cm wide, 8 cm tall. Find total area and perimeter. (π≈3.14)",
+        "ans": "Area=80+39.25=119.25 cm²; Perimeter=41.7 cm"
+      },
+      {
+        "q": "Cylinder: r=2.5 m, h=6 m. Paint costs $8.50/m² on lateral surface only. Find cost. (π≈3.14)",
+        "ans": "Lateral SA=94.2 m²; Cost=$800.70"
+      },
+      {
+        "q": "Cone: r=9 cm, h=12 cm. Find volume, lateral surface area (L=πrl, l=slant height), and total surface area.",
+        "ans": "l=15; V≈1,017.36 cm³; LSA≈423.9; Base≈254.34; TSA≈678.24 cm²"
+      },
+      {
+        "q": "A rectangular box (4×6×3 cm) is scaled up by factor 1.5. Find original and new volume and surface area. State the ratios.",
+        "ans": "Orig V=72; New V=243; Orig SA=108; New SA=243; V ratio=27:8; SA ratio=9:4"
+      },
+      {
+        "q": "A hollow sphere: outer r=8 cm, inner r=6 cm. Find volume of material used. (π≈3.14)",
+        "ans": "Outer V≈2,143.57; Inner V≈904.32; Material≈1,239.25 cm³"
+      },
+      {
+        "q": "A swimming pool: shallow end 1 m deep (10 m long), deep end 3 m (8 m long), sloped section (6 m long), width 5 m. Find total volume.",
+        "ans": "Shallow=50; Deep=120; Slope=½(1+3)×6×5=60; Total=230 m³"
+      },
+      {
+        "q": "A square pyramid: base side 12 cm, slant height 10 cm. Find lateral SA, total SA, and volume (h=√(l²−(s/2)²)).",
+        "ans": "LSA=240; Base=144; TSA=384 cm²; h=8; V=384 cm³"
+      },
+      {
+        "q": "A farmer's irregular quadrilateral field has vertices (0,0),(80,0),(90,60),(10,70) in meters. Divide into triangles to find area.",
+        "ans": "Triangle 1: 2,400 m²; Triangle 2: 2,850 m²; Total=5,250 m²"
+      },
+      {
+        "q": "Two cylinders have the same volume 628 cm³ (π≈3.14). Cylinder A: r=5 cm. Find its height. Cylinder B: h=8 cm. Find its radius.",
+        "ans": "A: h=8 cm; B: r=5 cm; they are congruent"
+      },
+      {
+        "q": "A circular pizza (d=16 in) is cut into 8 equal slices. Area of each slice? (π≈3.14)",
+        "ans": "Total A=200.96 in²; per slice≈25.12 in²"
+      }
+    ]
+  },
+  "11": {
+    "title": "Powers, Roots & Scientific Notation",
+    "mc": [
+      {
+        "q": "What is 5³?",
+        "opts": [
+          "15",
+          "25",
+          "125",
+          "625"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is √144?",
+        "opts": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "3.7 × 10⁴ in standard form?",
+        "opts": [
+          "3,700",
+          "37,000",
+          "370,000",
+          "0.00037"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is 2⁵?",
+        "opts": [
+          "10",
+          "25",
+          "32",
+          "64"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "0.000056 in scientific notation?",
+        "opts": [
+          "5.6×10⁻⁵",
+          "56×10⁻⁶",
+          "5.6×10⁵",
+          "0.56×10⁻⁴"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which is between √50 and √60?",
+        "opts": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Simplify: 2³ × 2⁴",
+        "opts": [
+          "2⁷",
+          "2¹²",
+          "4⁷",
+          "2⁻¹"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which is NOT a perfect square?",
+        "opts": [
+          "49",
+          "64",
+          "72",
+          "81"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 10⁵?",
+        "opts": [
+          "50",
+          "100,000",
+          "500",
+          "1,000,000"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is √0.49?",
+        "opts": [
+          "0.07",
+          "0.7",
+          "7",
+          "0.049"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Simplify: 3⁴ ÷ 3²",
+        "opts": [
+          "3²",
+          "3⁶",
+          "9²",
+          "1²"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "4.2 × 10³ equals:",
+        "opts": [
+          "420",
+          "4,200",
+          "42,000",
+          "0.0042"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is (2³)²?",
+        "opts": [
+          "2⁵",
+          "2⁶",
+          "2⁸",
+          "64²"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "√169 = ?",
+        "opts": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which is 7.8 × 10⁻³?",
+        "opts": [
+          "78",
+          "0.0078",
+          "7,800",
+          "0.00078"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Simplify: x⁵ × x³",
+        "opts": [
+          "x⁸",
+          "x¹⁵",
+          "2x⁸",
+          "x²"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Estimate √75 to nearest whole number.",
+        "opts": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 4⁻²?",
+        "opts": [
+          "−16",
+          "16",
+          "1/16",
+          "−1/16"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Simplify: (3x²)³",
+        "opts": [
+          "9x⁶",
+          "27x⁵",
+          "27x⁶",
+          "9x⁵"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is 0.00034 in scientific notation?",
+        "opts": [
+          "3.4×10⁻⁴",
+          "34×10⁻⁵",
+          "3.4×10⁴",
+          "0.34×10⁻³"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "What is (5²)(5³)?",
+        "opts": [
+          "25⁵",
+          "5⁵",
+          "5⁶",
+          "25⁶"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which is between 4² and 5²?",
+        "opts": [
+          "15",
+          "18",
+          "28",
+          "26"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Convert 2.5 × 10⁶ to standard notation.",
+        "opts": [
+          "25,000",
+          "250,000",
+          "2,500,000",
+          "25,000,000"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "What is √(16 × 25)?",
+        "opts": [
+          "√41",
+          "20",
+          "√400",
+          "160"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Simplify: (2²)³ ÷ 2³",
+        "opts": [
+          "2",
+          "2³",
+          "2⁶",
+          "2⁹"
+        ],
+        "ans": 1
+      }
+    ],
+    "fib": [
+      {
+        "q": "4⁴ = _____.",
+        "ans": "256"
+      },
+      {
+        "q": "√225 = _____.",
+        "ans": "15"
+      },
+      {
+        "q": "65,000 in scientific notation is _____ × 10⁴.",
+        "ans": "6.5"
+      },
+      {
+        "q": "Any number raised to the power of 0 equals _____.",
+        "ans": "1"
+      },
+      {
+        "q": "The square root of a perfect square is always a _____ number.",
+        "ans": "whole"
+      },
+      {
+        "q": "2⁸ = _____.",
+        "ans": "256"
+      },
+      {
+        "q": "√400 = _____.",
+        "ans": "20"
+      },
+      {
+        "q": "In scientific notation, the coefficient must be between _____ and _____.",
+        "ans": "1 and 10"
+      },
+      {
+        "q": "3³ × 3⁵ = 3_____.",
+        "ans": "8"
+      },
+      {
+        "q": "7² = _____.",
+        "ans": "49"
+      },
+      {
+        "q": "√(9/16) = _____.",
+        "ans": "3/4"
+      },
+      {
+        "q": "10⁶ = _____.",
+        "ans": "1,000,000"
+      },
+      {
+        "q": "(3²)³ = 3_____.",
+        "ans": "6"
+      },
+      {
+        "q": "0.000001 = 10_____.",
+        "ans": "⁻⁶"
+      },
+      {
+        "q": "√81 = _____.",
+        "ans": "9"
+      },
+      {
+        "q": "5⁴ = _____.",
+        "ans": "625"
+      },
+      {
+        "q": "x⁵ ÷ x² = x_____.",
+        "ans": "3"
+      },
+      {
+        "q": "The cube root of 27 is _____.",
+        "ans": "3"
+      },
+      {
+        "q": "10⁻³ = _____.",
+        "ans": "0.001"
+      },
+      {
+        "q": "√36 + √64 = _____.",
+        "ans": "14"
+      },
+      {
+        "q": "2⁰ + 2¹ + 2² = _____.",
+        "ans": "7"
+      },
+      {
+        "q": "4³ = _____.",
+        "ans": "64"
+      },
+      {
+        "q": "(ab)³ = a___b___.",
+        "ans": "³; ³"
+      },
+      {
+        "q": "The square root of 121 is _____.",
+        "ans": "11"
+      },
+      {
+        "q": "6² − 5² = _____.",
+        "ans": "11"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Earth is 1.5×10⁸ km from Sun. Light at 3×10⁵ km/s. Time for light to travel? Scientific notation.",
+        "ans": "5×10² = 500 seconds"
+      },
+      {
+        "q": "Bacteria double hourly. Start: 200. Expression and count after 6 hours.",
+        "ans": "200×2⁶=12,800"
+      },
+      {
+        "q": "Land area: 5,625 m². Side length? Fence cost at $12/m?",
+        "ans": "75 m; $3,600"
+      },
+      {
+        "q": "File: 4.8×10⁷ bytes. Drive: 6.4×10⁸ bytes. How many full files fit?",
+        "ans": "13 files"
+      },
+      {
+        "q": "Sound: 3.43×10² m/s. Lightning 2,058 m away. Time to hear thunder?",
+        "ans": "6 seconds"
+      },
+      {
+        "q": "Simplify: (2³ × 3²) ÷ (2² × 3). Show using laws of exponents.",
+        "ans": "2¹ × 3¹ = 6"
+      },
+      {
+        "q": "A number squared is 576. Find the number and verify by squaring.",
+        "ans": "√576=24; 24²=576 ✓"
+      },
+      {
+        "q": "Write 0.00000082 and 9,400,000 in scientific notation. Then compute their product.",
+        "ans": "8.2×10⁻⁷ × 9.4×10⁶ = 76.88×10⁻¹ = 7.688"
+      },
+      {
+        "q": "Estimate √130 to one decimal place. Show which perfect squares you used.",
+        "ans": "11²=121, 12²=144; √130≈11.4"
+      },
+      {
+        "q": "Evaluate: 2⁴ + 3³ − 4² + √25. Show each step.",
+        "ans": "16+27−16+5=32"
+      }
+    ],
+    "wp": [
+      {
+        "q": "Earth 1.5×10⁸ km from Sun. Light at 3×10⁵ km/s. Time in scientific notation?",
+        "ans": "5×10² = 500 seconds"
+      },
+      {
+        "q": "Bacteria double hourly. Start: 200. Count after 6 hours?",
+        "ans": "12,800 bacteria"
+      },
+      {
+        "q": "Land: 5,625 m². Side length? Fence at $12/m?",
+        "ans": "75 m; $3,600"
+      },
+      {
+        "q": "File: 4.8×10⁷ bytes. Drive: 6.4×10⁸ bytes. Files that fit?",
+        "ans": "13 files"
+      },
+      {
+        "q": "Sound: 3.43×10² m/s. Thunder heard 6 sec after lightning. Distance?",
+        "ans": "343×6=2,058 m"
+      },
+      {
+        "q": "A population of bacteria triples every day. Start: 500. Write expression and find count after 5 days.",
+        "ans": "500×3⁵=500×243=121,500"
+      },
+      {
+        "q": "An astronomer measures a star's distance as 4.3 × 10¹⁶ meters. A second star is 7.8 × 10¹⁶ meters away. How much farther is the second star? Write in scientific notation.",
+        "ans": "(7.8−4.3)×10¹⁶=3.5×10¹⁶ m"
+      },
+      {
+        "q": "A computer processes 2.4 × 10⁹ operations per second. How many operations in 30 seconds? Express in scientific notation.",
+        "ans": "2.4×10⁹ × 3×10¹=7.2×10¹⁰"
+      },
+      {
+        "q": "A microscopic cell has diameter 3.5 × 10⁻⁵ meters. How many cells lined up equal 1 cm (10⁻² m)?",
+        "ans": "10⁻² ÷ 3.5×10⁻⁵ ≈ 285.7; about 286 cells"
+      },
+      {
+        "q": "Compound growth: a town of 8,000 grows by 5% per year. Write as 8,000×(1.05)^n. Find population after 3 years (no calculator, use approximation).",
+        "ans": "8,000×1.05³≈9,261"
+      },
+      {
+        "q": "Bacteria triple every 4 hours. At 8AM: 500 bacteria. Write P(t). How many at midnight (t=16)? When does it exceed 1 million?",
+        "ans": "P=500×3^(t/4); midnight: 500×81=40,500; exceed 1M: t≈27.6 hrs"
+      },
+      {
+        "q": "Simplify: (2³×3⁴×5²)÷(2²×3³×5³). Express as fraction and decimal.",
+        "ans": "2×3÷5=6/5=1.2"
+      },
+      {
+        "q": "A light year is 9.461×10¹⁵ m. Andromeda is 2.537×10⁶ light years away. Distance in meters? How many times farther than the Sun (1.496×10¹¹ m)?",
+        "ans": "Distance≈2.4×10²² m; ratio≈1.6×10¹¹ times farther"
+      },
+      {
+        "q": "Find all integers x such that 2 < √(3x+1) ≤ 5.",
+        "ans": "4<3x+1≤25; 1<x≤8; integers: 2,3,4,5,6,7,8"
+      },
+      {
+        "q": "Evaluate without a calculator: 4^(3/2) + 27^(2/3) − 16^(3/4).",
+        "ans": "8+9−8=9"
+      },
+      {
+        "q": "A radioactive substance has half-life of 5 years. Start: 800 g. Amount after 20 years? After how many years is less than 50 g left?",
+        "ans": "After 20 yrs: 50 g; less than 50 g: t>20 years"
+      },
+      {
+        "q": "A=6.4×10⁵, B=4.0×10⁻³. Compute A×B, A÷B in scientific notation.",
+        "ans": "A×B=2.56×10³; A÷B=1.6×10⁸"
+      },
+      {
+        "q": "A bouncing ball rebounds to 60% of its previous height. After how many bounces is it less than 1% of the original height?",
+        "ans": "(0.6)^n<0.01; n×log(0.6)<−2; n>9.5; after 10 bounces"
+      },
+      {
+        "q": "Cities 3.45×10² km apart. A train covers this in 2.3 hours. Speed in km/h? In m/s? Time in minutes?",
+        "ans": "150 km/h; ≈41.67 m/s; 138 min"
+      },
+      {
+        "q": "Show √2 is between 1.41 and 1.42 by squaring both bounds.",
+        "ans": "1.41²=1.9881<2; 1.42²=2.0164>2; therefore 1.41<√2<1.42 ✓"
+      }
+    ]
+  },
+  "12": {
+    "title": "Mixed Review & Problem Solving",
+    "mc": [
+      {
+        "q": "A store marks up 40%. Item costs $25. Selling price?",
+        "opts": [
+          "$30",
+          "$35",
+          "$40",
+          "$65"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Solve: 3(x−4) = 18",
+        "opts": [
+          "x=2",
+          "x=6",
+          "x=10",
+          "x=14"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Triangle: b=14, h=9. Area?",
+        "opts": [
+          "63",
+          "126",
+          "46",
+          "23"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "−3² =",
+        "opts": [
+          "9",
+          "−9",
+          "6",
+          "−6"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Bag: 4 red, 3 blue, 5 green. P(green)?",
+        "opts": [
+          "5/7",
+          "5/12",
+          "1/3",
+          "5/9"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Jacket $68 after 15% off. Original price?",
+        "opts": [
+          "$78",
+          "$80",
+          "$82",
+          "$85"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Cylinder: r=4, h=10 (π≈3.14). Volume?",
+        "opts": [
+          "502.4",
+          "125.6",
+          "160",
+          "1256"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Simplify: (2x+3)−(x−5)",
+        "opts": [
+          "x−2",
+          "x+8",
+          "3x−2",
+          "x+2"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is the slope of y=3x−7?",
+        "opts": [
+          "−7",
+          "3",
+          "7",
+          "−3"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Simple interest: P=$500, r=4%, t=3 yrs. Interest earned?",
+        "opts": [
+          "$20",
+          "$40",
+          "$60",
+          "$80"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Solve: 2x + y = 8 when y = 4",
+        "opts": [
+          "x=1",
+          "x=2",
+          "x=3",
+          "x=4"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What percent of 80 is 56?",
+        "opts": [
+          "56%",
+          "60%",
+          "65%",
+          "70%"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "Evaluate: 3x² − 2x + 1 when x=−2",
+        "opts": [
+          "9",
+          "13",
+          "17",
+          "21"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Scale factor 3:5. Smaller shape area=27. Larger area?",
+        "opts": [
+          "45",
+          "75",
+          "81",
+          "125"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A function: f(x)=2x−3. f(5)=?",
+        "opts": [
+          "7",
+          "10",
+          "13",
+          "3"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "The sum 1+2+3+...+20 =",
+        "opts": [
+          "100",
+          "200",
+          "210",
+          "420"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Find the y-intercept of 3x − 2y = 12.",
+        "opts": [
+          "(0,4)",
+          "(0,−6)",
+          "(0,6)",
+          "(0,−4)"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Volume of sphere = (4/3)πr³. For r=3 (π≈3.14)?",
+        "opts": [
+          "75.36",
+          "113.04",
+          "339.12",
+          "904.32"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Compound interest vs. simple interest: which grows faster?",
+        "opts": [
+          "Simple",
+          "Compound",
+          "Same",
+          "Depends on time"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A sequence: 3, 7, 11, 15... What is the 10th term?",
+        "opts": [
+          "39",
+          "40",
+          "43",
+          "47"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which is the equation of a horizontal line through (0,5)?",
+        "opts": [
+          "x=5",
+          "y=5",
+          "y=0",
+          "x=0"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "The sum of interior angles of a triangle is 180°. The sum for a 10-gon is:",
+        "opts": [
+          "900°",
+          "1,080°",
+          "1,260°",
+          "1,440°"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "If 3x + 2 = 5x − 8, what is x?",
+        "opts": [
+          "3",
+          "5",
+          "4",
+          "6"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A 20% increase followed by a 20% decrease results in a:",
+        "opts": [
+          "No change",
+          "4% net decrease",
+          "4% net increase",
+          "20% net decrease"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is the mean of the first 10 positive integers?",
+        "opts": [
+          "5",
+          "5.5",
+          "6",
+          "6.5"
+        ],
+        "ans": 1
+      }
+    ],
+    "fib": [
+      {
+        "q": "Simple interest formula: I = _____.",
+        "ans": "P × r × t"
+      },
+      {
+        "q": "y-intercept of y=3x−7 is _____.",
+        "ans": "−7"
+      },
+      {
+        "q": "An angle and its vertical angle are always _____.",
+        "ans": "congruent"
+      },
+      {
+        "q": "Solve: 5(x+2)=35. x = _____.",
+        "ans": "5"
+      },
+      {
+        "q": "3/8 as a decimal = _____.",
+        "ans": "0.375"
+      },
+      {
+        "q": "Slope of a horizontal line is _____.",
+        "ans": "0"
+      },
+      {
+        "q": "The GCF of 48 and 60 is _____.",
+        "ans": "12"
+      },
+      {
+        "q": "Area of a circle with diameter 10 (π≈3.14) = _____.",
+        "ans": "78.5 sq units"
+      },
+      {
+        "q": "LCM of 6, 8, and 12 = _____.",
+        "ans": "24"
+      },
+      {
+        "q": "Solve: 4(2x−3)=20. x = _____.",
+        "ans": "4"
+      },
+      {
+        "q": "Percent increase from 40 to 50 = _____.",
+        "ans": "25%"
+      },
+      {
+        "q": "Sum of interior angles of a hexagon = _____.",
+        "ans": "720°"
+      },
+      {
+        "q": "Evaluate 2³ + √16 − 4⁰ = _____.",
+        "ans": "11"
+      },
+      {
+        "q": "Volume of cube with side 5 = _____ cubic units.",
+        "ans": "125"
+      },
+      {
+        "q": "The median of {3, 7, 8, 12, 15} = _____.",
+        "ans": "8"
+      },
+      {
+        "q": "If y=2x+1, the y-intercept is _____ and slope is _____.",
+        "ans": "1; 2"
+      },
+      {
+        "q": "Probability of impossible event = _____.",
+        "ans": "0"
+      },
+      {
+        "q": "Solve: 3x/4 = 9. x = _____.",
+        "ans": "12"
+      },
+      {
+        "q": "A ratio of 3:5 is equivalent to ____%.",
+        "ans": "60%"
+      },
+      {
+        "q": "The LCM of two prime numbers p and q is _____.",
+        "ans": "p × q"
+      },
+      {
+        "q": "Solve: x² = 81. x = _____.",
+        "ans": "±9"
+      },
+      {
+        "q": "Convert 5/8 to a percent: _____.",
+        "ans": "62.5%"
+      },
+      {
+        "q": "The mode of {4,4,5,6,6,6,7} is _____.",
+        "ans": "6"
+      },
+      {
+        "q": "Perimeter of equilateral triangle with side 11 = _____.",
+        "ans": "33 units"
+      },
+      {
+        "q": "5! = _____.",
+        "ans": "120"
+      }
+    ],
+    "syw": [
+      {
+        "q": "Store buys jeans for $28, marks up 75%, offers 20% off. Final price? More or less than cost?",
+        "ans": "$49→sale $39.20; $11.20 more than cost"
+      },
+      {
+        "q": "$1,500 at 4.5% simple interest per year. Interest in 3 years? Total balance?",
+        "ans": "I=$202.50; Balance=$1,702.50"
+      },
+      {
+        "q": "Train leaves A at 60 mph. 2 hours later, another at 90 mph. When does second catch up?",
+        "ans": "60(t+2)=90t; t=4 hrs; 360 miles from A"
+      },
+      {
+        "q": "Store: small candles $3.50, large $7. Customer buys 12 for $63. How many of each?",
+        "ans": "s+l=12; 3.5s+7l=63; s=7, l=5"
+      },
+      {
+        "q": "Pool 3× as long as wide. P=96 m. Find dimensions, area, volume (depth 1.5 m).",
+        "ans": "w=12, l=36; A=432; V=648 m³"
+      },
+      {
+        "q": "Graph and describe the function y=2x−3 for x=−2 to 2. Find intercepts.",
+        "ans": "y-int=(0,−3); x-int=(1.5,0); slope=2"
+      },
+      {
+        "q": "A bank account earns 6% simple interest. After 4 years, the total is $3,080. What was the principal?",
+        "ans": "P(1+0.06×4)=3,080; P=3,080/1.24=$2,484"
+      },
+      {
+        "q": "Two numbers differ by 14. Their sum is 58. Find both. Show system of equations.",
+        "ans": "x+y=58; x−y=14; x=36, y=22"
+      },
+      {
+        "q": "Sequence: 5, 9, 13, 17... Find the 20th term and sum of first 20 terms.",
+        "ans": "a₂₀=5+19×4=81; S₂₀=20(5+81)/2=860"
+      },
+      {
+        "q": "A store's profit P = 3.5x − 400 where x is units sold. Find break-even point and profit for 200 units.",
+        "ans": "Break-even: 3.5x=400; x≈115 units; P=3.5×200−400=$300"
+      }
+    ],
+    "wp": [
+      {
+        "q": "Store buys jeans $28, marks up 75%, then 20% sale. Final price? More/less than cost?",
+        "ans": "$39.20; $11.20 more"
+      },
+      {
+        "q": "$1,500 at 4.5% simple interest. Interest in 3 yrs? Total?",
+        "ans": "I=$202.50; Balance=$1,702.50"
+      },
+      {
+        "q": "Train A: 60 mph. Train B leaves 2 hrs later at 90 mph. When does B catch A?",
+        "ans": "4 hours later; 360 miles"
+      },
+      {
+        "q": "Candles: small $3.50, large $7. 12 bought for $63. How many of each?",
+        "ans": "7 small, 5 large"
+      },
+      {
+        "q": "Pool is 3× as long as wide. Perimeter = 96 m. Dimensions, area, volume (depth 1.5 m)?",
+        "ans": "12×36 m; A=432 m²; V=648 m³"
+      },
+      {
+        "q": "A store discounts an item 25%, then applies a further 10% off. Is the total discount the same as 35% off? Explain.",
+        "ans": "No; 25% off then 10% = 32.5% total (not 35%)"
+      },
+      {
+        "q": "Maria's salary increased 8% to $54,000. What was her original salary?",
+        "ans": "54,000/1.08=$50,000"
+      },
+      {
+        "q": "Two cars leave from the same point in opposite directions. One goes 55 mph, other 65 mph. After how many hours are they 360 miles apart?",
+        "ans": "(55+65)t=360; t=3 hours"
+      },
+      {
+        "q": "A school raised $4,200 selling adult tickets for $8 and student tickets for $5. Three times as many student tickets were sold as adult tickets. How many of each?",
+        "ans": "8a+5(3a)=4200; 23a=4200; a≈182 adult, 546 student"
+      },
+      {
+        "q": "A ball is dropped from 120 feet. It bounces back 2/3 of its height each time. What height does it reach after the 4th bounce? Show each bounce.",
+        "ans": "1st: 80 ft; 2nd: 53.3; 3rd: 35.6; 4th: 23.7 ft"
+      },
+      {
+        "q": "A store marks up 45% and then discounts 30%. An item sells for $72.45. Find the original wholesale cost. Did the store profit?",
+        "ans": "C×1.45×0.70=72.45; C=$71.38; profit≈$1.07 (≈1.5%)"
+      },
+      {
+        "q": "A line passes through (−3,7) and (5,−9). Find slope, y-intercept, equation, and both axis intercepts.",
+        "ans": "m=−2; b=1; y=−2x+1; x-int=(0.5,0); y-int=(0,1)"
+      },
+      {
+        "q": "Two cyclists 140 km apart ride toward each other at 18 and 22 km/h. When do they meet? How far has each traveled?",
+        "ans": "40t=140; t=3.5 hrs; 63 km and 77 km"
+      },
+      {
+        "q": "$2,400 at 5% simple vs. compounded annually for 4 years. Find both totals and the difference.",
+        "ans": "Simple=$2,880; Compound≈$2,917.22; Diff≈$37.22"
+      },
+      {
+        "q": "Sequence: a₁=3, aₙ=2aₙ₋₁−1. Find first 6 terms. Is it arithmetic, geometric, or neither? Find a₁₀.",
+        "ans": "3,5,9,17,33,65; neither; aₙ=2^(n−1)+2; a₁₀=514"
+      },
+      {
+        "q": "Graph y=x² and y=2x+3. Find intersection points algebraically. Verify both.",
+        "ans": "x²−2x−3=0; (x−3)(x+1)=0; points: (3,9) and (−1,1) ✓"
+      },
+      {
+        "q": "A rectangle has length (2x+5) and width (x−1). Area=52 cm². Find x and the dimensions.",
+        "ans": "(2x+5)(x−1)=52; 2x²+3x−57=0; x≈4.64; l≈14.3, w≈3.6 cm"
+      },
+      {
+        "q": "A tank drains at 15 L/min and fills at 10 L/min. Starts full at 300 L. Both run 20 min, then only filling. How long total to return to full?",
+        "ans": "Net drain: 5×20=100 L removed; refill 100 L at 10 L/min=10 min; Total=30 min"
+      },
+      {
+        "q": "Arithmetic series: a₁=4, d=3, Sₙ=209. Find n and the last term.",
+        "ans": "n(3n+5)/2=209; 3n²+5n−418=0; n=11; a₁₁=34; S₁₁=209 ✓"
+      },
+      {
+        "q": "A 20% increase followed by a 20% decrease: find the net percent change. Then find what percent increase followed by 20% decrease returns exactly to original.",
+        "ans": "Net: ×1.2×0.8=0.96; net −4%; to return: x×0.8=1; x=125%; need 25% increase"
+      }
+    ]
+  }
+}
